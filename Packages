@@ -652,6 +652,26 @@ Name: CCSupport
 Author: opa334
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccsupportDp
 
+Package: com.huayuarc.cputhermal
+Architecture: iphoneos-arm64e
+Version: 1.6.2-154+isolation.19
+Maintainer: Huayuarc
+Installed-Size: 1812
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, firmware (>= 15.0)
+Conflicts: cn.zqbb.fix120hz, cn.zqbb.fix120hz15, com.zqbb.fix120hz, com.zqbb.dynamic120hz
+Filename: debs/CPU 解除温控-1.6.2-154+isolation.19-iphoneos-arm64e.deb
+Size: 154124
+MD5sum: 2c336e260a41ae921ab2ad910cab8d2e
+SHA1: c4af88b9bf4a19f709cef9cc095c2ae2d239a9d1
+SHA256: d9fe03e9dfdcae9d636aa3bff0c135adfc9f8de7f47707d9a286ca5f6e372103
+SHA512: 1bfe198e4e4651dcf7cb4361ed9807b20bdb6bddd51abb145764644d7f68392ca2ecb4d93f07964f5da60103ef0a5d058597ae10135ea0286719b06ddc546c2d
+Section: Tweaks
+Description: CPUthermal temperature policy, smart charge and dynamic settings with full Hello 120Hz 3.3.3-3 port: preferred 10/30/60/80/120 FPS, global injection, application exclusions, debug HUD and system recording hooks. Requires AltList. Based on isolation.16 SpringBoard stability candidate.
+Name: CPU 解除温控
+Author: Huayuarc
+Icon: https://huayuarc.github.io/icon/cputhermal.png
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+
 Package: com.wkk.carbridge13
 Architecture: iphoneos-arm64e
 Version: 2.0.15
@@ -1404,26 +1424,6 @@ Section: Tweaks
 Description: 自研微信增强插件：设置框架、群功能、消息增强、朋友圈工具
 Name: HBKit
 Author: HBKit
-
-Package: com.huayuarc.cputhermal
-Architecture: iphoneos-arm64e
-Version: 1.6.2-155+isolation.22
-Maintainer: Huayuarc
-Installed-Size: 1812
-Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, firmware (>= 15.0)
-Conflicts: cn.zqbb.fix120hz, cn.zqbb.fix120hz15, com.zqbb.fix120hz, com.zqbb.dynamic120hz
-Filename: debs/com.huayuarc.cputhermal_1.6.2-155+isolation.22_iphoneos-arm64e.deb
-Size: 154568
-MD5sum: 06a36d95c2a870440ba6078e3b862ee7
-SHA1: 4745a1255911b608d4c02df721fdd526c9b4cfa0
-SHA256: 935fcaedad03ae027b43cf81ef0ba94693bb2d7b5fdd5aef7a86bdec71089198
-SHA512: d1573022e515d4f6fd56feb181312d9459c42bfc45934cd9cd1b614747426d6ec82bcc51fb189b3b933d485b4e8da6238fc377d413005fb26c50320b94ef6a9c
-Section: Tweaks
-Description: CPUthermal temperature policy, smart charge and dynamic settings with full Hello 120Hz 3.3.3-3 port: preferred 10/30/60/80/120 FPS, global injection, application exclusions, debug HUD and system recording hooks. Requires AltList. Based on isolation.16 SpringBoard stability candidate.
-Name: CPU 解除温控
-Author: Huayuarc
-Icon: https://huayuarc.github.io/icon/cputhermal.png
-Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
 
 Package: com.lessica.camover
 Architecture: iphoneos-arm64e
@@ -2476,6 +2476,28 @@ Description: 一个新生代的插件，主打自由定义与实用为主，更�
 Name: WeChatX
 Author: wkk
 Icon: https://s1.imagehub.cc/images/2025/01/01/95a2f7dd7e6f2a540e2f53f95ae214d4.png
+
+Package: com.axs.zzfilter
+Architecture: iphoneos-arm64
+Version: 5.2.0-8
+Maintainer: Axs <qiaozhani000@163.com>
+Installed-Size: 372
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/ZZFilter-5.2.0-8-iphoneos-arm64.deb
+Size: 63778
+MD5sum: 392a4d7a772fd251206f2fabd853c3f5
+SHA1: 978f82fd672bb85c3e151567387cab4866f4db70
+SHA256: 2a646a8a325d06950b936af43eff2a7df1450afc86843675fd51a091aebdffe8
+SHA512: 55326a28d86d8892fa36e0b4d57f6544948c310d609ec8577303dcf9f33e9d22c9de20360e32d38f1ad2effb781fe5ce352f69932c83e2a9e93f3544348307d0
+Section: 插件
+Description: 转转筛选助手
+ * 1.先输入需要搜索的商品名称，进入页面后，长按悬浮球（或点面板「开始爬取」）自动抓取全数据
+ * 2.按机型/电池/系统版本/成色/内存筛选
+ * 3.支持单条复制链接、单条打开详情页与一键复制全部链接
+Name: ZZFilter
+Author: Axs <qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/zzfilter.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/zzfilter/js.json
 
 Package: com.cydiabc.removewidgetbg-rootless
 Architecture: iphoneos-arm64
