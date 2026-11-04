@@ -790,6 +790,27 @@ SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.doleo.roothide.json?v
 ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.doleo.roothide.json?v=c36783201cc5
 Tags: compatible_min::ios15.0
 
+Package: com.bvn.dynamic120hz.r2
+Architecture: iphoneos-arm64e
+Version: 3.3.3-3k
+Maintainer: zqbb
+Installed-Size: 1180
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000) , firmware (>= 15.0), preferenceloader, com.opa334.altlist
+Conflicts: cn.zqbb.fix120hz15, com.zqbb.fix120hz, cn.zqbb.fix120hz
+Filename: debs/Dynamic120hz VH(Roothide)-3.3.3-3k-iphoneos-arm64e.deb
+Size: 399420
+MD5sum: c19ee216242398ae8ceced2dbf81fd3f
+SHA1: bac5474b467989bd0c63b73e5adedda5e06abaa1
+SHA256: 34a76fb45354b5ea71dca6381a578f0aa4ce31069bc6803e3aaa15410961372c
+SHA512: 73dba7192b629b0015df87cd03c57db45497b4ac54a11cd3e588927a5f2fa7885076fc10a938cee85cb9ee8dc5a1a9f6afa1f2346cc29bdaf52d0e7160fb3e74
+Section: Tweaks
+Description: Unlock dynamic refresh rate from 80hz to 120hz
+Name: Dynamic120hz VH(Roothide)
+Author: zqbb
+SileoDepiction: https://bvnrepo999.github.io/sileodepictions/Dynamic120hz.json
+Icon: https://bvnrepo.xyz/icon/tinhchinh.png
+
 Package: com.dynamicx.tweak
 Architecture: iphoneos-arm64e
 Version: 1.5.1
