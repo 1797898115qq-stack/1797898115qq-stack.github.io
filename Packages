@@ -666,6 +666,24 @@ Name: OneSettings
 Sponsor: wkk
 icon: https://sini921.github.io/repo/sileodepiction/icon/onesett.png
 
+Package: com.yourepo.axs.openmask
+Architecture: iphoneos-arm64e
+Version: 0.0.1
+Section: B-分屏插件
+Maintainer: charlie <qiaozhani000@163.com>
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/OpenMask 适配鱿鱼手势_0.0.1_iphoneos-arm64e.deb
+Size: 4956
+MD5sum: 4d8cf4ceb050349447fb4b15e2d69adb
+SHA1: 1caed920eab53a11f4065d2ae982eb8b51069fa5
+SHA256: a658e3d33e85b79c5add1dde7eecb92e7ac62218f0abbffbc2a46a29929cf70d
+SHA512: 9977ed85656cafd8755e50107127ad09c5a7f7436b9ff03c2d0589d50be44e77b5271718a33d6f02eae7dce4dcd464a9928f171702ac46ab17cabb11fd991411
+Description: 将启动 fv 浮窗的接口转发给 open 越狱版。以实现某些手势的联动。
+Name: OpenMask 适配鱿鱼手势
+Author: charlie <qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/trollopen.png
+
 Package: com.roothide.patchloader
 Architecture: iphoneos-arm64e
 Version: 0.0.8
@@ -1051,6 +1069,25 @@ Name: SquidGesturePro(激活码)
 Author: SquidForce, Backup
 SileoDepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidgesturepro/depiction.json
 
+Package: com.wkk.systembox
+Architecture: iphoneos-arm64e
+Version: 1.5-8end
+Section: Tweaks
+Maintainer: wkk
+Installed-Size: 2792
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.wkk.clockglass
+Filename: debs/SystemX_1.5-8end_iphoneos-arm64e.deb
+Size: 590464
+MD5sum: 016bfb79e3a0725e1eb3eb44800e66c0
+SHA1: e927abf621676da5ae2ce9f34d565684e78dd697
+SHA256: c587727b2c40f97d68918e63f6cc5ea5fe43ae019f2f286f58051120bd01953a
+SHA512: 4f54ef82c305c582bacb8cc365f6b64684f41285ae2bc55b4f8c211fbba654f5cc0a32b459853e550cab7997d4f95751b068f798e5335acad43e54b08cb54d4d
+Description: cool
+Name: SystemX
+Author: wkk
+Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
+
 Package: com.82flex.touchvis
 Architecture: iphoneos-arm64e
 Version: 4.2
@@ -1320,6 +1357,24 @@ Description: JSC security hardening for WebContent process. Configures JavaScrip
 Name: lockdown
 Author: roothide
 
+Package: roothide
+Architecture: iphoneos-arm64e
+Version: 0.1.0
+Priority: required
+Essential: yes
+Section: System
+Maintainer: roothide
+Installed-Size: 936
+Filename: debs/roothide core_0.1.0_iphoneos-arm64e.deb
+Size: 41564
+MD5sum: f9e5141dd659d2769c021c3777cdd4fb
+SHA1: 266811421a12ef2559cd8a789aded87caafb87b2
+SHA256: 7bb2baaca72fcedd060a74f7e9a515f3ff0ed2ae4adcdb497ba24b32acdaa2e4
+SHA512: 6dc6829d33dfa0242cba9935f97c0a447a93a3aedc023f28679a986c071649e59fd2da4b4650ae7d87a0911a15cc761c19fd001437ac16c1831c43d7fb033380
+Description: roothide core package
+Name: roothide core
+Author: roothide
+
 Package: com.example.wifileasekeeper
 Architecture: iphoneos-arm64e
 Version: 1.0.12
@@ -1414,6 +1469,25 @@ SHA512: 69f4eb7328465701d4402d89efe759d195cbde5335e95f8ce9ca2f8bb47c6433c0d7971d
 Description: 左滑返回上一页面
 Name: 左滑返回
 Author: Mao
+
+Package: com.yechen.globalfont
+Architecture: iphoneos-arm64e
+Version: 1.1.13
+Section: Tweaks
+Maintainer: yechen
+Installed-Size: 380
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: firmware (>= 16.0), firmware (<< 18.0), preferenceloader, mobilesubstrate | ellekit
+Filename: debs/文字深浅切换_1.1.13_iphoneos-arm64e.deb
+Size: 22032
+MD5sum: 9a55b62027c701ee58a52ee101bab76a
+SHA1: 46f2e243b92fc1b9d4d08a8ced30bcc31d7769b3
+SHA256: d3c92c44984c682410d29dae6a10192b563225cb13c08a564db543365cc8597b
+SHA512: f458da28feda1bf3698a47b909f4dbc0bbb8a5990ce1fec1f0f683dde869687cb5c074205129909a59a0463ee697401334932350dfecaff31f560c719fff04d3
+Description: 仅对桌面长按菜单、锁屏播放器和锁屏通知应用 iOS 原生深浅外观。
+Tag: role::enduser, purpose::extension, cydia::requires-respring
+Name: 文字深浅切换
+Author: 夜辰
 
 Package: com.xybp888.perfectdynamiclsland.roothide
 Architecture: iphoneos-arm64e
