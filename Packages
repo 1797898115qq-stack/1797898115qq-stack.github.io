@@ -325,6 +325,24 @@ Description: load preferences in style
 Author: Dhinak G <dhinak@dhinak.net>
 Name: PreferenceLoader
 
+Package: com.rain.raincontainer
+Architecture: iphoneos-arm64e
+Version: 2.9.0-7+debug
+Section: Tweaks
+Maintainer: Rain
+Installed-Size: 1956
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate, com.opa334.crane
+Filename: debs/Rain的容器_2.9.0-7+debug_iphoneos-arm64e.deb
+Size: 317660
+MD5sum: 0d0fffff7ae0510462a879ff85174647
+SHA1: 41c11800cd1762a143624251be74421f8a3e5fb3
+SHA256: f78e189d155c4fd1371c97689a3241c99a365681546be65b263118b63f050d2c
+SHA512: 7b0549f44397c8bc0c390939212c0acb52c1caaaef28dcd229aadb17641d994547ee8c206bd0cf3d5292b901e243c687038fe337d5d326a2d353830ebd075d30
+Description: 基于 Crane 开发，感谢作者 opa334 编译开发的优秀插件；需安装原版的 Crane 即可生效
+Name: Rain的容器
+Author: Rain
+
 Package: com.wkk.sileosourcesearch
 Architecture: iphoneos-arm64e
 Version: 1.0-2
@@ -342,6 +360,23 @@ Description: 为 Sileo 软件源页面增加源名称和网址模糊搜索，点
 Name: Sileo 源搜索
 Author: wkk
 Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
+
+Package: com.dao.sileo
+Architecture: iphoneos-arm64e
+Version: 2.5.1-15
+Section: 嗨-系统
+Maintainer: 刀刀
+Depends: firmware (>= 11.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), coreutils (>= 8.30-1), dpkg (>= 1.19.4-1), apt (>= 1.8.2), libzstd1
+Replaces: org.coolstar.sileo
+Filename: debs/Sileo(RootHide)_2.5.1-15_iphoneos-arm64e.deb
+Size: 3004936
+MD5sum: 1642673cf96e052ef53a3167eab2df59
+SHA1: a80afa28f2f66e641eba916d04e8e5c5be21f151
+SHA256: 0cd0596fb510fbf9275c316ef4a52537301e096f2b841f086c9d63fba8df56fd
+SHA512: a4c2b88d20a31b90af1f051a3b51c85ec9fe8b38728cd5eab73bcfc39b61800c2d68b8404c67ca6c8823acdb7f6d6a1a775abec3eeadad2b5ac292c276d04a89
+Description: 刀刀补充汉化，并在插件列表左侧增加架构指示器(arm64e → 绿色、arm64 → 蓝色、arm → 橙色、all → 灰色)，可识别刀刀源内的 RootHidePatcher 中文版，也识别 UmbraPatcher，转换插件一条龙。
+Name: Sileo(RootHide)
+Author: Amy While
 
 Package: org.coolstar.sileo
 Architecture: iphoneos-arm64e
@@ -522,6 +557,28 @@ Description: 先在模拟界面保存标签!
 Name: aemulo自动模拟 - rootless
 Author: zqbb
 SileoDepiction: https://rootless.002599.xyz/web/zp.aemuloauto.rootless
+
+Package: com.exile90.icleanerpros
+Architecture: iphoneos-arm64e
+Version: 7.10.0
+Section: Bootstrap
+Maintainer: Ivano Bilenchi
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: firmware (>= 4.0), findutils, apt | apt7
+Conflicts: com.exile90.icleanerpro, org.altervista.exilecom.icleaner
+Filename: debs/iCleaner Pro_7.10.0_iphoneos-arm64e.deb
+Size: 982416
+MD5sum: cccfb491b905b843643c46abcebe9a15
+SHA1: 560feaa07e2ee9ef3f919feadc5b1fbeed756202
+SHA256: 282f37f5634d7c2f69880d37edede376239f3c65200e0253ed028dcb562159b9
+SHA512: ee082cd3464f8ab8c9f5e7a33940e41d95f3bf53c580e9647666e13e2dfba7a22e5b0a3927a1cf0620cdbe5ae12440129a03456635e283d33e09712142bc7733
+Description: iCleaner Pro
+ * 垃圾清理工具，启动项管理等
+ * The first real iOS system cleanup and management utility
+Author: Ivano Bilenchi
+Name: iCleaner Pro
+Icon: https://TrollStoreX.Github.io/sileodepiction/iCleanerPro/icon.png
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/iCleanerPro/js.json
 
 Package: org.coolstar.libhooker
 Architecture: iphoneos-arm64e
