@@ -817,6 +817,26 @@ Description: 当SpringBoard的Phys占用阈值超过一定数值，自动轻量�
 Name: SBTrim
 Author: crctdd
 
+Package: cn.llld.snapshottool
+Architecture: iphoneos-arm64e
+Version: 4.4
+Section: rootless应用插件
+Maintainer: 来了老弟
+Installed-Size: 1092
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate
+Filename: debs/STTool_4.4_iphoneos-arm64e.deb
+Size: 471984
+MD5sum: 14d4a1e7ef771f10e07c0a62cf05d020
+SHA1: 204f96e322277429e50e91b5506b2300b038e4e6
+SHA256: d57e0b4e6faead28e4caf0570874090be5b2899b2b0561f8bc6f474dbb303ce6
+SHA512: bedd83c77ba8c2756720b40ffb2fb9bdd780ffe4fdd3b46aa5bcbf650cc13897e1ef86cf0bdd98750655549b759690067d7a4b08aeeb103abd9cd091ae903bfd
+Description: ---对于应用软件的图片，（AI编辑图，AI文生图等，无水印拿图，直接分享，复制到剪切板，图片分割，文字水印，涂鸦，截图，保存到相册，圆角处理，直接马赛克等功能，特意支持telegram,nicegram,swiftgram等应用，禁止截图或私密群组的图片保存到粘贴板和相册）。***(商店应用有百万千万级，非100%应用或场景支持，不可能挨个应用测试)***
+Name: STTool
+Author: 来了老弟
+Icon: file:///var/jb/Library/PreferenceBundles/SnapshotToolprefs.bundle/icons-llld/SnapshotTool.png
+SileoDepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.snapshottool/snapshottool.json
+
 Package: com.wkk.sileosourcesearch
 Architecture: iphoneos-arm64e
 Version: 1.0-2
@@ -994,6 +1014,23 @@ Name: SquidExtender(激活码版)
 Author: SquidForce, Backup
 SileoDepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidextender/depiction.json
 
+Package: com.82flex.touchvis
+Architecture: iphoneos-arm64e
+Version: 4.2
+Section: Tweaks
+Maintainer: Lessica <82flex@gmail.com>
+Installed-Size: 3864
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/Touch-Viz_4.2_iphoneos-arm64e.deb
+Size: 884236
+MD5sum: 0f173879290aada5a23d4a74505a4b03
+SHA1: 89f2ce67f112f3c20b14c5272ff1d8464a080afd
+SHA256: 6f5a5927eac6e110e983ea765bb57b96a4994acee451c38641dbfa4fbe1f8e29
+SHA512: 4e79fb28f4259d264124cc5035022a7ddf17780f2feb6a5ab460632d7c611801faf6b41402ad31b398923293d42f7bbab8d8e6aa482c653b2636fa7561e94ea5
+Description: Display your touch interactions!
+Name: Touch-Viz
+Author: Lessica <82flex@gmail.com>
+
 Package: com.charlieleung.trollopenjb
 Architecture: iphoneos-arm64e
 Version: 1.3.7
@@ -1050,6 +1087,29 @@ Description: Control Center VPN toggle and VPN configuration selector 控制中�
 Name: VPN Control Center
 Author: Huayuarc
 icon: https://huayuarc.github.io/icon/vpncontrolcenter.jpg
+
+Package: com.axs.voidy
+Architecture: iphoneos-arm64e
+Version: 1.0+roothide
+Section: Tweaks
+Maintainer: xsxs18
+Installed-Size: 1016
+Pre-Depends: rootless-compat (>= 0.9)
+Recommends: uikittools
+Filename: debs/Voidy 清理工具_1.0+roothide_iphoneos-arm64e.deb
+Size: 299776
+MD5sum: d78c28ac4fe8c23c8cb3ab7fc2caecf2
+SHA1: b0c8e003787438a67fbc862555a8f1f954fc7c33
+SHA256: 4ea64ebcc79562238e2c746497705ba6b459c55c76057dd11b03d27dd5f3915a
+SHA512: 533bdcc02c3384441f1e145efa650892b967c15d1a10519a714e2626e4effc23635bbf6f84b012cd6023a5642493a5f57b6c33a9ac45edc2d3eca405fc2a4d61
+Description: 这是一款轻量级系统清理工具。
+ 1. 清除缓存、日志、临时文件和软件包残留，进行管理
+ 2. 调整与启动守护进程，查找大文件和孤立的软件包
+ 3. 可以按预定时间自动清洁。
+Name: Voidy 清理工具
+Author: xsxs18
+Icon: https://axs66.github.io/pro/icon/voidy.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/voidy/js.json
 
 Package: com.brend0n.volumemixer
 Architecture: iphoneos-arm64e
