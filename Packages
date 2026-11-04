@@ -35,6 +35,27 @@ Name: Aemulo NFC模拟
 Author: Amy While <support@anamy.gay>
 Icon: https://s1.imagehub.cc/images/2026/01/04/7c96709445ff5c46b3eec04f7863b889.png
 
+Package: com.bvn.airaw-r2
+Architecture: iphoneos-arm64e
+Version: 1.7.1k
+Section: Tweaks
+Maintainer: Dcsyhi <dcsyhi1998@gmail.com>
+Installed-Size: 12029
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0), com.opa334.ccsupport
+Filename: debs/Airaw VH(Roothide)_1.7.1k_iphoneos-arm64e.deb
+Size: 8524448
+MD5sum: c96ed18b0c2e38ff4eade08f00c0e798
+SHA1: 8bf5cec82dc13e7c13845e0bd95a68578fed256b
+SHA256: ee445e3d4b7fb5baf6e40cf00844adf3de08a470d5327b5d83b65e0babc8fb01
+SHA512: ab4c8df3504085b52ffc97ec9c47889105943ef37cc955afa7609719c29e172d6289cd62aa77af999f1e0d4943fbe8448bd20356c3777c9731d2a907a6175eef
+Description: An awesome CarPlay tweak.
+Author: Dcsyhi <dcsyhi1998@gmail.com>
+Name: Airaw VH(Roothide)
+Depiction: https://bvnrepo999.github.io/infodeb/Html/Airaw.html
+SileoDepiction: https://bvnrepo999.github.io/sileodepictions/Airaw.json
+Icon: https://bvnrepo999.github.io/icon/tinhchinh.png
+
 Package: ws.hbang.alderis
 Architecture: iphoneos-arm64e
 Version: 1.2.3-8+debug
@@ -77,6 +98,24 @@ Tag: role::developer
 Name: AltList
 Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=altlistDp
 Author: opa334
+
+Package: com.flex2areo.appprotect
+Architecture: iphoneos-arm64e
+Version: 2.4.9
+Section: Tweaks
+Maintainer: aReo
+Installed-Size: 2648
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.flex2areo.appprotectroothide, com.flex2areo.appprotectrootless
+Filename: debs/AppProtect(Roothide)_2.4.9_iphoneos-arm64e.deb
+Size: 708380
+MD5sum: c30f98d86c04b7dd4663ff1cbdda02b1
+SHA1: f424a7280dac0ef316d3b3a09fa4f3c334c11561
+SHA256: 6c68e07a341aca596355b85e8ab4c7b356fe6fc6aaa1d6bd2708e9d7cfd545ca
+SHA512: e83740ac5be50c3d6a9df71763fc94c0615d0cb4ea1921c343f4231d3c9316183e9012f9c49ab8072af5a92ed76a4e05cd983ad1e4155112073261bb3d92dcb2
+Description: App 隐私保护
+Name: AppProtect(Roothide)
+Author: aReo
 
 Package: com.flex2areo.apptools15roothide
 Architecture: iphoneos-arm64e
@@ -256,6 +295,24 @@ SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.doleo.roothide.json?v
 ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.doleo.roothide.json?v=c36783201cc5
 Tags: compatible_min::ios15.0
 
+Package: com.dynamicx.tweak
+Architecture: iphoneos-arm64e
+Version: 1.5.1
+Section: Tweaks
+Maintainer: 半生年华
+Installed-Size: 2308
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/DynamicX_1.5.1_iphoneos-arm64e.deb
+Size: 197628
+MD5sum: 31bfd6cd41eab76f38f30d5fe58e2c45
+SHA1: 680b2a102cd9637895a6ce58455d4a987f49deb7
+SHA256: 3d066b313d2e70eec33a7c536cffaf9566e9596006cc1a469350cb7ba4dcf8e1
+SHA512: 0f7bef4f4bd40c27257fafb7c916d21093d5e869283243b033142c91c1e781c1a7427b9ce1750bc3c7a1715ef07130e60e876b52bf0dcfc223ebc06924eaf389
+Description: 万物皆上岛
+Name: DynamicX
+Author: 半生年华
+Icon: https://abc07968695-a11y.github.io/Sileo/DynamicX.png
+
 Package: com.lclrc.exacttime
 Architecture: iphoneos-arm64e
 Version: 2.0.4
@@ -277,6 +334,23 @@ Author: gilshahar7, SquidForce
 Icon: file:///var/jb/Library/PreferenceBundles/ExactTimeprefs.bundle/ExactTime@3x.png
 SileoDepiction: https://lclrc.github.io/repo/depictions/native/com.lclrc.exacttime/depiction.json
 
+Package: com.guacforlife.filzabookmarkfix
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Section: Tweaks
+Maintainer: guacforlife
+Installed-Size: 204
+Depends: mobilesubstrate
+Filename: debs/FilzaBookmarkFix_1.0.0_iphoneos-arm64e.deb
+Size: 8796
+MD5sum: b9e562dda790bd795e18c151417985dd
+SHA1: 94fadac969e92adec79829407b2f0a0f314dc371
+SHA256: aa2594d4072ffbf20c1844612b06ba18b43515d34dd689ed16a4b5940cf5a535
+SHA512: 5714500f70d619aa748f3ee4c11fead690e4b553f1664c8777b08ee190a8f8029996553a68f96e9819001d1c97d12aa7b49cddeaa47c96bd0d251c58058c3dae
+Description: Repairs Filza bookmarks and recents that break when roothide's jbroot UUID changes. Rewrites stale absolute paths to their jbroot-relative form so they never go stale again.
+Name: FilzaBookmarkFix
+Author: guacforlife
+
 Package: com.nan.givemedeb
 Architecture: iphoneos-arm64e
 Version: 0.3.1
@@ -294,6 +368,24 @@ Name: Give me deb
 Author: zhaonan
 SileoDepiction: https://invalidunit.github.io/sileodepiction/com.nan.givemedeb/js.json
 Icon: https://invalidunit.github.io/sileodepiction/default/image_fix.png
+
+Package: com.dao.immortalizer
+Architecture: iphoneos-arm64e
+Version: 2.0.1
+Section: 嗨-工具
+Maintainer: sergy & daodao
+Installed-Size: 660
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist, com.opa334.ccsupport
+Conflicts: com.sergy.immortalizer
+Filename: debs/Immortalizer(RootHide)_2.0.1_iphoneos-arm64e.deb
+Size: 46752
+MD5sum: 72917113fe1e998037a721dcef0dc3fd
+SHA1: 7ea4a53fd410f4dc82baeb316793770f871b6086
+SHA256: a8f24091a8f30d549007568a3756e159f4436cff031ef16b206ddcf44f3dba19
+SHA512: eebc48edde16d0357245d5883ac492fb35c54632f7cd42cbcee90f0cf601588146c702c61712b237e29bf7cd99207e7d9c366d4b1179da2bfe15909403138011
+Description: 可将应用置于前台，达到「真后台」效果；应用图标长按菜单——开启/禁用「真后台」；CC模块控制，需先打开要控制的app，然后点击模块；根据开源重新编译。
+Name: Immortalizer(RootHide)
+Author: sergy
 
 Package: wiki.qaq.irisin
 Architecture: iphoneos-arm64e
@@ -708,6 +800,24 @@ Description: iOS 26 style Lock Screen widgets
 Name: Soko
 Author: waruhachi
 
+Package: com.charlieleung.trollopenjb
+Architecture: iphoneos-arm64e
+Version: 1.3.7
+Section: Tweaks
+Maintainer: Charlie Leung
+Installed-Size: 4460
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist
+Filename: debs/TrollOpen_1.3.7_iphoneos-arm64e.deb
+Size: 1129528
+MD5sum: d6ed9ef0647df220db12759ed16ef4a0
+SHA1: 8811c343acd1c3569de952b5637d96d6cbf7b303
+SHA256: 2fcb1bf419093e6079f8c561ae58e1dd80853d5ae5114ad7e34a093221332d60
+SHA512: af38dbd3e776d5824edabf0b6cd4ebd8e9d2566ff1061655c8f2a53bc59921bcab2fe019dee2b6ef528f6bfebec4ded37b012f927692bbff72983449ef471eaf
+Description: TrollOpen 的越狱版本，支持 ios16 及以上，免费公开版，无后续更新，不需要反馈 bug。QQ 群：1094778353，后续付费更新联系群主或群管理。小黑子闭嘴吧，看看什么是最强分屏！
+Name: TrollOpen
+Author: Charlie Leung
+
 Package: wiki.qaq.umbra.patcher
 Architecture: iphoneos-arm64e
 Version: 3.0-2
@@ -728,6 +838,24 @@ Description: Convert supported tweak packages for RootHide custom firmware.
 Name: Umbra Patcher
 Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
 Support: https://github.com/owngoal-dev/RootHidePatcher/issues
+
+Package: com.huayuarc.vpncontrolcenter
+Architecture: iphoneos-arm64e
+Version: 1.1.1
+Section: Tweaks
+Maintainer: Huayuarc
+Installed-Size: 148
+Depends: firmware (>= 15.0)
+Filename: debs/VPN Control Center_1.1.1_iphoneos-arm64e.deb
+Size: 25596
+MD5sum: 86a67753fc0b34be04fb3c3b3a1aa5a4
+SHA1: be2a6030d0dd4d2dc07591735433b10c0ea327ce
+SHA256: 60f56b866b786720293074b60a0ac9d8ba901e8a5644e5a944ea404b476aa0f6
+SHA512: 6e71627f298bddac9b31085c32c2fe3e2ab94a143beda6de926d5d0fdb5abe3c90b803f69bb2e92423a915857214edf0093096395b378a53e3525ec2e0199a68
+Description: Control Center VPN toggle and VPN configuration selector 控制中心VPN切换和VPN配置
+Name: VPN Control Center
+Author: Huayuarc
+icon: https://huayuarc.github.io/icon/vpncontrolcenter.jpg
 
 Package: zp.aemuloqs.rootless
 Architecture: iphoneos-arm64e
@@ -863,6 +991,24 @@ Description: JSC security hardening for WebContent process. Configures JavaScrip
 Name: lockdown
 Author: roothide
 
+Package: com.example.wifileasekeeper
+Architecture: iphoneos-arm64e
+Version: 1.0.12
+Priority: optional
+Section: 辅助工具
+Maintainer: colorblack
+Installed-Size: 1088
+Depends: firmware (>= 15.0), preferenceloader, mobilesubstrate (>= 0.9.5000)
+Filename: debs/wifi 锁屏不断连 roothide_1.0.12_iphoneos-arm64e.deb
+Size: 310944
+MD5sum: 429f745e8a21b175054fd4a82aaacad3
+SHA1: fab433ade2af579aa0f7eb96faf3d1603d069024
+SHA256: 1d58a6e7cfa13b2a33eadda3b66c366cd6f9222110f4d1a372b183288f0bcee3
+SHA512: 07f9e25539dede14c5dc8c663b9a514d412508975a8e05c3b33741401c8d7bb6980f71f236cb9a0a10f718875bb9de8a65fb75103f8eae2cee8645866e86cde8
+Description: 仅为白名单 Wi-Fi 防休眠,锁屏8小时耗电4%左右,(本插件实际为解决 连安卓热点苹果锁屏会断开 wifi的痛点) QQ群 205928931
+Name: wifi 锁屏不断连 roothide
+Author: colorblack
+
 Package: com.lenglengyu.passbyccs
 Architecture: iphoneos-arm64e
 Version: 1.0.2
@@ -885,6 +1031,26 @@ Author: lenglengyu
 Depiction: https://repo.lenglengyu.top/packageInfo/passbycc.html
 SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/PassbyCC/js.json
 icon: https://TrollStoreX.Github.io/sileodepiction/PassbyCC/icon.png
+
+Package: com.axs.qjsy
+Architecture: iphoneos-arm64e
+Version: 4.1.6-end
+Section: Tweaks
+Maintainer: 冰蓝
+Installed-Size: 2496
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/全局水印Pro_4.1.6-end_iphoneos-arm64e.deb
+Size: 340228
+MD5sum: 548902fe77a4ce58e6003f2b6f019df8
+SHA1: 4c0f704351eda2ef8038d55cf63ac2b3055f2579
+SHA256: 88de7cd65f7340bebf620471b0173c9f18ebe0103accbbb698777a2f2b3e55c4
+SHA512: 6f716b799dea32df8b5ba3bdbf2c361af65c721f3aff5b06899515b64d23d9da1480bfed26794bee1f0b7e6237dbff34f6b5f21abffd4b2869583acb30b0e124
+Description: 让简单截图，拥有更多可能。
+Name: 全局水印Pro
+Author: 冰蓝
+Icon: https://axs66.github.io/pro/icon/screenshellpro.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/js.json
 
 Package: com.yourepo.ok95.4
 Architecture: iphoneos-arm64e
