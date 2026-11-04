@@ -811,6 +811,26 @@ Author: zqbb
 SileoDepiction: https://bvnrepo999.github.io/sileodepictions/Dynamic120hz.json
 Icon: https://bvnrepo.xyz/icon/tinhchinh.png
 
+Package: com.bvn.dynamic120hz
+Architecture: iphoneos-arm64
+Version: 3.3.3-3k
+Maintainer: zqbb
+Installed-Size: 1180
+Depends: mobilesubstrate (>= 0.9.5000) , firmware (>= 15.0), preferenceloader, com.opa334.altlist
+Conflicts: cn.zqbb.fix120hz15, com.zqbb.fix120hz, cn.zqbb.fix120hz
+Filename: debs/Dynamic120hz VH(Rootless)-3.3.3-3k-iphoneos-arm64.deb
+Size: 399608
+MD5sum: 8b3eff7b52dc60092f53f424b8dc3c47
+SHA1: 39bc94e1b37a2f1267112fa41fa3e223b8fd4835
+SHA256: a6d64fa05db89594e7042e122bc686acab5ca08e92ad8e0b1004d09c1165d0c2
+SHA512: 9d0b5aa6a7d2a09008da6023616b426fa8be5ca2bad49574f532c36e7df0e111d6643d33a752890d9abc135191bbf9afc018b0e05be99fed995deed87b843375
+Section: Tweaks
+Description: Unlock dynamic refresh rate from 80hz to 120hz
+Name: Dynamic120hz VH(Rootless)
+Author: zqbb
+SileoDepiction: https://bvnrepo999.github.io/sileodepictions/Dynamic120hz.json
+Icon: https://bvnrepo.xyz/icon/tinhchinh.png
+
 Package: com.dynamicx.tweak
 Architecture: iphoneos-arm64e
 Version: 1.5.1
