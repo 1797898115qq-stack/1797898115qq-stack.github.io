@@ -390,20 +390,20 @@ SileoDepiction: https://apt.002599.xyz/web/org.coolstar.libhooker
 
 Package: com.charlieleung.liquidify
 Architecture: iphoneos-arm64e
-Version: 1.3.8+repair.test3
+Version: 1.3.7-4+repair.4
 Maintainer: 一刀
-Installed-Size: 41014
+Installed-Size: 40967
 Pre-Depends: rootless-compat (>= 0.9)
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/88液态玻璃插件 1.3.8_1.3.8+repair.test3_iphoneos-arm64e.deb
-Size: 23107452
-MD5sum: cf5caa63ad95266f52565c9c704b620a
-SHA1: a02b6c4f880f415854e9ba49a56d13fdc1e649e5
-SHA256: dbb46b15f7ca318f388ef7fbd10147dbc0e40ebe9b99045137d457e862c044cb
-SHA512: f151bbfb84bbd5deddb84c5b5f2c090f2e51567052c4ea5a7d65c89e70fc824044327c578d2cf89d2b64e774096a5e1c1a439a78a449808d0f022ebf205069e2
+Filename: debs/88液态玻璃插件 1.3.7-4_1.3.7-4+repair.4_iphoneos-arm64e.deb
+Size: 10538900
+MD5sum: dc0dcd4a545eba8bcab9405908c7d748
+SHA1: 2c78c5621514868116f48193e302202a30ae76a7
+SHA256: e2043a45f06a5fef82bf6b39234aa167ecddf5870c0d755889a63d2d504bb30b
+SHA512: 60262815e9306539d13c8fa33c71c161d7595a49012b73c438a986b8aae675b2f0d9a971c1f04de91bd6f27469cf2244a423868a5171f9f20b9467dea5db31d9
 Section: Tweaks
 Description: 液态玻璃
-Name: 88液态玻璃插件 1.3.8
+Name: 88液态玻璃插件 1.3.7-4
 Author: 一刀
 
 Package: com.bvn.splitnative.r2
@@ -604,6 +604,23 @@ Section: Tweaks
 Description: Choicy白名单 (支持iOS 15-17 roothide)
 Name: Choicy-Whitelist
 Author: crctdd
+
+Package: com.muirey03.cr4shed
+Architecture: iphoneos-arm64e
+Version: 5.0.0
+Maintainer: Muirey03
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.libsandy (>= 1.1.6-4)
+Filename: debs/Cr4shed_5.0.0_iphoneos-arm64e.deb
+Size: 552264
+MD5sum: f781e2b0df0ca8004efeb696ddfb82c5
+SHA1: 287af3193a2320edf8d0c16c52e98d30c9bc126f
+SHA256: b5f8653091eeef73d52d5f29c854452d458bda4dcd57db0cf63e612a488f35a5
+SHA512: d1c3c2fb4837857e63c3f1d77fbccf5de5e49517a0a527bf8b65aba92363023776c258a702e17b34bf1ceda12a1560471c4ce20904c60b0a1a831689263a5fbc
+Section: Tweaks
+Description: A modern crash reporter for iOS, rewritten in Swift.
+Name: Cr4shed
+Author: Muirey03
 
 Package: com.opa334.crane
 Architecture: iphoneos-arm64e
@@ -1795,3 +1812,20 @@ Section: 辅助工具
 Description: 仅为白名单 Wi-Fi 防休眠,锁屏8小时耗电4%左右,(本插件实际为解决 连安卓热点苹果锁屏会断开 wifi的痛点) QQ群 205928931
 Name: wifi 锁屏不断连 roothide
 Author: colorblack
+
+Package: im.mjh.fakeperm.roothide
+Architecture: iphoneos-arm64e
+Version: 8.9.3
+Maintainer: Junhong
+Installed-Size: 1588
+Depends: firmware (>= 15.0), preferenceloader
+Filename: debs/虚拟权限 · Fake Permission (Roothide)_8.9.3_iphoneos-arm64e.deb
+Size: 282084
+MD5sum: 66d0e53ee22d6066a6376bf98ac22fbb
+SHA1: cf36c20d7b0e4a8d07184b474ff045271a47458a
+SHA256: 86ea6bc451b6272b45569982787c7556d34b5bb044b227d1748aa68906545ec8
+SHA512: eaf2cb5a767d0475be4df66b061f182c9bb45ce542860cf8561cd2e7f2d9d5c842219e088c55bcb761ba4c3edf6b2370d625674b52deab98168b31564c9868b0
+Section: 插件
+Description: 针对任意 App 单独配置虚拟权限，防止隐私被过度索要。
+Name: 虚拟权限 · Fake Permission (Roothide)
+Author: Junhong
