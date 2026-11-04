@@ -168,6 +168,27 @@ Description: Pin screenshots on the screen.
 Name: Snapper 3
 Author: Jonathan Winger-lang
 
+Package: wiki.qaq.umbra.patcher
+Architecture: iphoneos-arm64e
+Version: 3.0-2
+Section: Utilities
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 2532
+Depends: firmware (>= 15.0), bash, coreutils, findutils, grep, sed, libxar1, ldid, file, dpkg, gawk, plutil (>= 0.2.2-1), uikittools (>= 2.1.6-4)
+Conflicts: com.roothide.patcher
+Replaces: com.roothide.patcher
+Filename: debs/Umbra Patcher_3.0-2_iphoneos-arm64e.deb
+Size: 882200
+MD5sum: ec722a4626ac6e5f5b4c0f3b0703ab5a
+SHA1: c67747384eb796dc989199afa8142b2318fe7024
+SHA256: 4e0bf9fb66b50347796b3156390dff1f84df76128f9cecdb3adc5758c4658bc2
+SHA512: 22d781a7bca3d99b1b1eb6c07bdf9c00c60139da425e2df74835272c235e5b8418796f480b7d6f38e13e06721c309f12a8509daa9d5dfccf10406a7ca1b028b9
+Homepage: https://github.com/owngoal-dev/RootHidePatcher
+Description: Convert supported tweak packages for RootHide custom firmware.
+Name: Umbra Patcher
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Support: https://github.com/owngoal-dev/RootHidePatcher/issues
+
 Package: zp.aemuloqs.rootless
 Architecture: iphoneos-arm64e
 Version: 1.0.0-3
