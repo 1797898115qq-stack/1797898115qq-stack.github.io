@@ -226,6 +226,41 @@ Description: Pin screenshots on the screen.
 Name: Snapper 3
 Author: Jonathan Winger-lang
 
+Package: com.yourepo.axs.snapper
+Architecture: iphoneos-arm64e
+Version: 5.2.0-326
+Section: System (Axs-Tweaks)
+Maintainer: Axs <qiaozhini000@163.com>
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate
+Filename: debs/Snapper3 Expand_5.2.0-326_iphoneos-arm64e.deb
+Size: 175096
+MD5sum: 7d8114f65219c4a65e3546a512efcb41
+SHA1: 589e14ce1e27b3b8deb65ea965e28780a470b942
+SHA256: d854e0636d22bae9b2a155512db7cc6222741457e501c6e036e3634ab961cd91
+SHA512: ec95f2c74e0a9de9986d1a5758e943dd1b30b688f309efa3a55bafe65f26e210ee13e0f5174caf122366fa43fb7b328aba880c251a348695522f267d6dfc094e
+Description: Snapper3 功能扩展，目前包含：截图标记 + 长截图 + OCR识别 + 翻译 + AI互译 + AI问答 + Sileo长按翻译，修复了原snapper3主体插件第7个图标遮挡一半的bug；将菜单工具栏最后一个“关闭”图标进行固定，增加滑动视觉效果。
+Name: Snapper3 Expand
+Author: Axs <qiaozhini000@163.com>
+Icon: https://axs66.github.io/pro/icon/snapper.png
+
+Package: moe.waru.soko
+Architecture: iphoneos-arm64e
+Version: 1.1.0
+Section: Tweaks
+Maintainer: waruhachi
+Installed-Size: 464
+Depends: firmware (>= 16.0), firmware (<< 19.0), mobilesubstrate (>= 0.9.5000)
+Filename: debs/Soko_1.1.0_iphoneos-arm64e.deb
+Size: 55572
+MD5sum: a77a841fac0accbb39e08667fde94318
+SHA1: 654b1332037a8549c22c002bdbe3019ca1407386
+SHA256: d8d36a103d9b2c4d105c8ed430578e45c00470e8804a48455691a1d31f64d060
+SHA512: 7b0161ee54a90395a95f8c13ea89497030d0fce09f1772100f8be8ff052c9c46df45592247db4017253ad92b60016849e4536817508bba8ecc048056c5248b10
+Description: iOS 26 style Lock Screen widgets
+Name: Soko
+Author: waruhachi
+
 Package: wiki.qaq.umbra.patcher
 Architecture: iphoneos-arm64e
 Version: 3.0-2
@@ -323,6 +358,25 @@ SHA512: 02ab9895c95909858763b38c994a8f395fe0960dc6e2b4a74e475cdd802ea73e0aaef9db
 Description: 破解软件会员合集，无需依赖，不会影响系统进程，部分失效！自己打包的合集，请勿反馈，谢谢理解。红字报错请根据日志移除相关的破解插件即可，此插件只破解软件，不会破解其它插件。
 Name: 去他妈的充值会员
 Author: fuck vip <kk99588077@gmail.com>
+
+Package: com.xybp888.perfectdynamiclsland.roothide
+Architecture: iphoneos-arm64e
+Version: 1.4.0
+Priority: optional
+Section: System
+Maintainer: xybp888
+Depends: firmware (>= 16.0), mobilesubstrate
+Filename: debs/灵动通知iOS16-正式版(RootHide)_1.4.0_iphoneos-arm64e.deb
+Size: 922204
+MD5sum: 67688f901b91da2e2aa8d4080f0d03b6
+SHA1: d4fc84186daac980db1d46f3ce29b41634deb539
+SHA256: 10f70c0f4c0dfa5e7b5680c4627f1484e9f0e03aaa92295ef519e5f3e07c0d15
+SHA512: dd4b047631624ed89be45263ab0c44ff6030851dde51b95dc59d7e23fb0a509811784efdcd0fee9183096a6a5b95f6a038b351a0a1e15a6ca15f5232ba6e72ee
+Description: 完美的使用原生灵动岛展示系统通知等...
+Name: 灵动通知iOS16-正式版(RootHide)
+Author: xybp888
+Depiction: https://apt.htv123.com/view/999
+SileoDepiction: https://apt.htv123.com/sileo/999
 
 Package: com.xybp888.callassist16.dopamine.roothide
 Architecture: iphoneos-arm64e
