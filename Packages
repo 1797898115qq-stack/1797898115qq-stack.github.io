@@ -761,6 +761,25 @@ Description: Redirects Safari URL opens to Reynard browser. Toggle in Settings a
 Name: ReynardDefault
 Author: guacforlife
 
+Package: cn.zqbb.inject.manager
+Architecture: iphoneos-arm64e
+Version: 3.3.0-1
+Section: System
+Maintainer: zqbb
+Installed-Size: 928
+Depends: firmware (>= 15.0)
+Filename: debs/RootHide Inject Manager_3.3.0-1_iphoneos-arm64e.deb
+Size: 402392
+MD5sum: 36da0a7ee1d8752f7e9f59eda7e9d266
+SHA1: 289de8a97240a4fba5aad21765f4d96d540073e9
+SHA256: d38a239d2b2e1612f47ce57bee61f67cc284f92ccc7f66b72b8ce043b54ecedc
+SHA512: 6dc19069a60c38da20bff7b193564ea9092193191428e87f07c0b5ac1e4009d655fc4b0c281461005c05f5fd0ea4d83a3d3017abcf992c7bc8f026bd421d5626
+Description: Configuare RootHide's Features
+Name: RootHide Inject Manager
+Author: zqbb, roothide
+Icon: https://apt.002599.xyz/web/icon/cn.zqbb.inject.manager
+SileoDepiction: https://apt.002599.xyz/web/cn.zqbb.inject.manager
+
 Package: com.roothide.manager
 Architecture: iphoneos-arm64e
 Version: 1.4.1
