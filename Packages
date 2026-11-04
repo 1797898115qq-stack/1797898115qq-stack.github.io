@@ -43,6 +43,33 @@ Icon: https://img.chariz.cloud/icon/cephei/icon@3x.png
 Depiction: https://chariz.com/get/cephei
 Support: https://hashbang.productions/support/
 
+Package: wiki.qaq.irisin
+Architecture: iphoneos-arm64e
+Version: 5.1.6
+Priority: optional
+Section: Applications
+Maintainer: OwnGoal Studio <no-reply@owngoal.dev>
+Installed-Size: 20820
+Depends: firmware (>= 15.0)
+Filename: debs/Irisin_5.1.6_iphoneos-arm64e.deb
+Size: 5322228
+MD5sum: b91af5a7a4d84ee3c78454f7f94471aa
+SHA1: ccef14294bf56726b7b22092759c225bf9999a21
+SHA256: 7f27c5c00986bf2c7cc286a98afacf4ec7c431bbaff238ba36e2b9f6c42f7dcd
+SHA512: b5bc5d3225ebc9ada780b7d9785be319e93e899b78b9bebc6278e9e4a7ad243fce2d6a0d287a4c2fcc6711d97683ea037934cfb52586473cdff0f78203151fa6
+Homepage: https://github.com/Lakr233/Irisin
+Description: Modern package manager for roothide custom firmware
+ Browse your repositories, install and remove packages, keep tweaks updated
+ and read every depiction, on iPhone and iPad. The app runs without root;
+ installs go through a small on-demand root daemon whose helper installs
+ packages natively and registers apps with LaunchServices itself. No dpkg,
+ no uicache.
+Name: Irisin
+Icon: https://lakr233.github.io/Irisin/icon.png
+Depiction: https://lakr233.github.io/Irisin/
+SileoDepiction: https://lakr233.github.io/Irisin/depiction.json
+Author: OwnGoal Studio <no-reply@owngoal.dev>
+
 Package: com.jontelang.snapper3
 Architecture: iphoneos-arm64e
 Version: 1.2.1
@@ -98,4 +125,23 @@ Description: 先在模拟界面保存标签!
 Name: aemulo自动模拟 - rootless
 Author: zqbb
 SileoDepiction: https://rootless.002599.xyz/web/zp.aemuloauto.rootless
+
+Package: com.xybp888.callassist16.dopamine.roothide
+Architecture: iphoneos-arm64e
+Version: 3.3.4
+Priority: optional
+Section: Tweaks
+Maintainer: xybp888
+Depends: firmware (>= 16.0), preferenceloader, com.opa334.libsandy
+Filename: debs/电话助手iOS16-正式版(Roothide)_3.3.4_iphoneos-arm64e.deb
+Size: 3541468
+MD5sum: 56b58694033cb677fe968a6c2d41825b
+SHA1: 4361319d615257ae328e6f94f906081a5a11a7c0
+SHA256: e739268fbbb8176e34b52ad2cdf3ecb6d0f4412b63c867356fa14ca4ccd480cd
+SHA512: 343308f995217a8bf6c202805d022db60d3a44c33ed4c19bbf1d95261af02c3243a3dd09221c0115772e3d8b9520e63012dd3e609fd9174fb421488327225961
+Description: 电话助手授权版本,通话录音,通话记录合并,T9双卡选卡拨号键盘,短信双卡选卡,来去电归属地,黑名单,骚扰拦截,状态栏图标替换,时间格式修改,常用小功能等强大插件
+Name: 电话助手iOS16-正式版(Roothide)
+Author: xybp888
+Depiction: https://apt.htv123.com/view/1123
+SileoDepiction: https://apt.htv123.com/sileo/1123
 
