@@ -1,0 +1,18 @@
+Package: zp.aemuloqs.rootless
+Architecture: iphoneos-arm64e
+Version: 1.0.0-3
+Section: Tweaks
+Maintainer: zqbb
+Installed-Size: 72
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/aemulo快速启动 - rootless_1.0.0-3_iphoneos-arm64e.deb
+Size: 3104
+MD5sum: b45851f835fecd71889c141b2c7575b1
+SHA1: 9aa0101c26f8e3e389fbd5adf8cb1484b0ccb1f5
+SHA256: 1303b5f4a12f274cf36c1c15510639ab7d68e74692927e485355944a460b8b3a
+SHA512: e1f58ebd2f012fed2fb19acb3e4e36c55bb153d804c082a64d42a453f322bb92b432e51ffc72257b87832bed45a2c896b9719299fe28e4da6aa2b30002d1920c
+Description: 锁屏界面解锁后双击手电筒或相机按钮,桌面双击或上滑分页小圆点!
+Name: aemulo快速启动 - rootless
+Author: zqbb
+SileoDepiction: https://rootless.002599.xyz/web/zp.aemuloqs.rootless
+
