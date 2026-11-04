@@ -317,6 +317,24 @@ Description: Choicy白名单 (支持iOS 15-17 roothide)
 Name: Choicy-Whitelist
 Author: crctdd
 
+Package: cn.zqbb.cocoatop64.inject.roothide
+Architecture: iphoneos-arm64e
+Version: 3.2.0
+Section: Utilities
+Maintainer: zp, SXX, Domo
+Installed-Size: 840
+Conflicts: ru.domo.cocoatop, ru.domo.cocoatop64, zp.cocoatop64, zp.cocoatop64.unject, zp.cocoatop64.inject
+Filename: debs/CocoaTop64 inject (RootHide)_3.2.0_iphoneos-arm64e.deb
+Size: 184280
+MD5sum: 65c9893496cc2e320311c302ca03ec9c
+SHA1: 9d6dbff4d34162f4b429de5d612adf6720fc63e0
+SHA256: 45fd83e136b379fd78378ea35415450e1f65995846bafc716895dbeeaf490340
+SHA512: 24cfa552c6ce972fd8f11540fc1b47ffec32e037db5ec72df8ffde4b62c030d6da63c5138af407246bd862ff514aa8d807a15ba1546622d990116666f14f4711
+Description: (RootHide) 白名单注入辅助器
+Name: CocoaTop64 inject (RootHide)
+Author: Domo, SXX , zp
+SileoDepiction: https://rootless.zqbb.cf/web/cn.zqbb.cocoatop64.inject.roothide
+
 Package: com.sini921.cozybadges
 Architecture: iphoneos-arm64e
 Version: 2.2-4
