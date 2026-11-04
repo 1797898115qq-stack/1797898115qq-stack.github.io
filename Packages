@@ -397,7 +397,7 @@ Provides: mobilesubstrate (= 99), org.coolstar.libhooker (= 1.6.9)
 Conflicts: com.ex.substitute, org.coolstar.libhooker, science.xnu.substitute, mobilesubstrate, com.saurik.substrate.safemode
 Breaks: com.opa334.libsandy (<= 1.1.6-3)
 Replaces: com.ex.libsubstitute, org.coolstar.libhooker, mobilesubstrate
-Filename: debs/ellekit_1.2-3_deadlockfix1_iphoneos-arm64e.deb
+Filename: debs/ellekit_1.2-3+deadlockfix1_iphoneos-arm64e.deb
 Size: 127108
 MD5sum: b0ee5ac505e4510cb98ffb328d2ad730
 SHA1: a47b296684cbd247231abeaf3e4dbf210c9a0c29
