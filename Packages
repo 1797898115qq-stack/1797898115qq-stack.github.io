@@ -1,3 +1,21 @@
+Package: com.charlieleung.liquidify
+Architecture: iphoneos-arm64e
+Version: 1.3.8+repair.test3
+Section: Tweaks
+Maintainer: 一刀
+Installed-Size: 41014
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/88液态玻璃插件 1.3.8_1.3.8+repair.test3_iphoneos-arm64e.deb
+Size: 23107452
+MD5sum: cf5caa63ad95266f52565c9c704b620a
+SHA1: a02b6c4f880f415854e9ba49a56d13fdc1e649e5
+SHA256: dbb46b15f7ca318f388ef7fbd10147dbc0e40ebe9b99045137d457e862c044cb
+SHA512: f151bbfb84bbd5deddb84c5b5f2c090f2e51567052c4ea5a7d65c89e70fc824044327c578d2cf89d2b64e774096a5e1c1a439a78a449808d0f022ebf205069e2
+Description: 液态玻璃
+Name: 88液态玻璃插件 1.3.8
+Author: 一刀
+
 Package: com.wkk.aemulo
 Architecture: iphoneos-arm64e
 Version: 1.2.5
@@ -209,6 +227,24 @@ Author: Tsangbaby
 Icon: https://tsangbaby.github.io/Icon/Kayoko.png
 SileoDepiction: https://tsangbaby.github.io/depictions/com.tsangbaby.kayoko/depiction.json
 
+Package: com.niceios.nicebarx16-roothide
+Architecture: iphoneos-arm64e
+Version: 1.0.1.9-23
+Section: Tweaks
+Maintainer: niceios
+Installed-Size: 15228
+Depends: mobilesubstrate, com.niceios.nicehelper-roothide (>= 6.9), preferenceloader
+Filename: debs/NiceBarX(iOS16)【Roothide】_1.0.1.9-23_iphoneos-arm64e.deb
+Size: 4347512
+MD5sum: 035fed6eb490f12e7b12e5907e95121c
+SHA1: 7bfb163cb834f536517b8e61d6f1e962b46caae7
+SHA256: 76b5b22d93d4ebe8514498d6a23b09d8d706fe7c93a5bf9f619103d789eca7a2
+SHA512: 0cc2dfd03d6d5a9f84d6af86a7c3f27e5d57027034c9f088262045cd4d8bc45b719d90ce3a1e2df235b3db0082470b5f9ffe33a708aaae673fd91ef11d2791e3
+Description: 状态栏插件.
+Name: NiceBarX(iOS16)【Roothide】
+Author: niceios
+Sponsor: niceios
+
 Package: com.wkk.onesettings
 Architecture: iphoneos-arm64e
 Version: 2.2
@@ -289,6 +325,24 @@ Description: load preferences in style
 Author: Dhinak G <dhinak@dhinak.net>
 Name: PreferenceLoader
 
+Package: com.wkk.sileosourcesearch
+Architecture: iphoneos-arm64e
+Version: 1.0-2
+Section: Tweaks
+Maintainer: wkk
+Installed-Size: 108
+Depends: org.coolstar.sileo
+Filename: debs/Sileo 源搜索_1.0-2_iphoneos-arm64e.deb
+Size: 17600
+MD5sum: ab16385e174ac8582d8ec35ee20f300c
+SHA1: c654c4ee5ae11a26ea5e8c4602645e1ddf4ceedb
+SHA256: c7f553d10e98a7a52f23c2cf8d307ba0c322708d31fd2c41ef437e28102c9c2d
+SHA512: 5f362ff73bfeac215099ddfe6f31221525b21b908b18bb55f4189f9b4ef243e2a4aaf77df77902d4c4833cc40edd69df897797d9bd233ecb77e3d31b58f6a824
+Description: 为 Sileo 软件源页面增加源名称和网址模糊搜索，点击搜索结果可直接进入对应软件源；同时在软件源左滑菜单中增加置顶和取消置顶，按置顶先后顺序排列，最多可置顶 5 个软件源。
+Name: Sileo 源搜索
+Author: wkk
+Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
+
 Package: org.coolstar.sileo
 Architecture: iphoneos-arm64e
 Version: 2.5.1-15
@@ -306,6 +360,56 @@ Name: Sileo
 Author: Amy While <me@anamy.gay>
 Icon: https://getsileo.app/img/icon.png
 SileoDepiction: https://featuredpage.getsileo.app/depiction.json
+
+Package: com.snapbackup
+Architecture: iphoneos-arm64e
+Version: 3.8.11
+Section: Tweaks
+Maintainer: kanuo
+Installed-Size: 648
+Depends: firmware (>= 15.0), mobilesubstrate, apt, dpkg, coreutils, sed
+Filename: debs/SnapBackup 备份恢复_3.8.11_iphoneos-arm64e.deb
+Size: 1253036
+MD5sum: f43e97fc8c561b35a2f904d83a2b45bb
+SHA1: d14f01a342b23c039a38022d1ecd6831c62ef455
+SHA256: cd8e9199d861d30548724aa1e18b7773abd7ddd0855b7e8439fab7acc2ce4d4e
+SHA512: 1ac03cf12ba54f2e61bbb6bb313b8fe7c31ea31da7ab8366e40065929fdc25170cde70c075e9d4f7942f814c0683beebd631cd1965eb6a4380576bb479397a48
+Description: 越狱插件与配置备份恢复工具（rootless + RootHide 隐根适配）
+ 轻量、现代 UI 的越狱备份工具，专为解决重装、重越狱、迁移插件与配置的痛点而设计。
+ .
+ 【核心功能】
+ - 一键备份全部已安装插件（现场重打包为 .deb）+ 软件源列表 + 插件偏好配置 plist
+ - 两种备份模式：轻量清单备份 / 完整离线备份（含 deb 安装包）
+ - 选择性备份：可勾选要备份的插件与配置，自动标记「设置有界面」的插件
+ - 插件、依赖、偏好与配置目录统一归档，记录 SHA-256、权限和所有者
+ .
+ 【恢复流程】
+ - 独立 root helper 校验备份完整性、包元数据与架构，依赖由 Sileo 处理
+ - 恢复插件后自动打开 Sileo 并加入安装队列，用户手动确认安装
+ - 备份结果支持多选恢复，自动处理 Sileo 获取及本地重新安装入队
+ - 可跳过已安装插件，独立入口批量选择本地 deb 加入 Sileo 队列
+ - 失败插件可单独重试并补入原备份，支持查看与复制工具错误日志
+ - 外观支持浅色、深色及跟随系统，自动记住选择
+ - root 扫描清理，覆盖隐根 AppGroup 缓存与日志，显示删除字节和可用空间变化
+ - 扫描系统目录占用，逐项批注可清理、需手动确认或仅查看，不明数据库禁止删除
+ - 独立文件扫描：从根目录逐层查看全手机容量，大小倒序，保留 Filza 定位且不提供删除
+ - Sileo 内仍支持多选 deb、导入文件夹与 SnapBackup 待恢复任务
+ - 使用 Sileo 原生安装队列；恢复插件与恢复配置为独立按钮
+ - 可单独恢复备份配置，也可按 Sileo 任务核验安装结果后恢复对应配置
+ - 保留恢复日志与配置覆盖前的副本
+ .
+ 【操作流程】
+ ① 备份：主页 →「一键备份」→ 选模式（全部插件 / 勾选的插件+配置 / 仅配置）→ 等待完成，备份存于 /var/mobile/Documents/SnapBackup/
+ ② 恢复配置：主页 →「恢复配置」→ 选备份包
+ ③ 恢复插件：主页 →「恢复插件」→ 选备份包 → 自动打开 Sileo 加入队列 → 手动确认安装
+ .
+ RootHide 隐根专门适配：正确读取隐根容器 apt 数据库、动态解析真实 jbroot、不受 .jbroot-xxxx 隔离目录干扰。
+ 备份目录：/var/mobile/Documents/SnapBackup/；后台不常驻，打开才执行，不耗电。
+Name: SnapBackup 备份恢复
+Author: kanuo
+dev: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depictions/icon/snapbackup.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depictions/com.snapbackup.json
 
 Package: com.jontelang.snapper3
 Architecture: iphoneos-arm64e
