@@ -2538,6 +2538,23 @@ Author: Axs
 Icon: https://axs66.github.io/pro/icon/dynamicnotland.png
 SileoDepiction: https://axs66.github.io/pro/sileodepiction/ios16dao/js.json
 
+Package: com.netskao.wcdisablehotupdates
+Architecture: iphoneos-arm64e
+Version: 1.1-5
+Maintainer: Nets
+Installed-Size: 72
+Depends: mobilesubstrate, firmware (>= 13.0)
+Filename: debs/微信禁用热更新-1.1-5-iphoneos-arm64e.deb
+Size: 2272
+MD5sum: 642884c288ef5892b2fd801b753e021f
+SHA1: 4209bb58961c2c9ea276e9b04acba9b759c8d0cc
+SHA256: 71eae594233862d957ff72984c398cad9037a944a556bf76e933179e9782d73e
+SHA512: 3dee91611fa9ed18845afc24928cf809fc6b1ac4201c82d825926deeb8d5d14f634152e709589934d40f4b9f51e3de7a9960e57c8f0cbfb3d0ecaa3e05ebcd81
+Section: 插件
+Description: 微信禁用热更新, 减少热更新频繁导致的杀后台。搭配Hello memory status使用效果更佳。
+Name: 微信禁用热更新
+Author: Netskao
+
 Package: im.mjh.fakeperm.roothide
 Architecture: iphoneos-arm64e
 Version: 8.9.3
