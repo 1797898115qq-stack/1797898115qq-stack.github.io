@@ -1,3 +1,22 @@
+Package: com.wkk.aemulo
+Architecture: iphoneos-arm64e
+Version: 1.2.5
+Section: 应用程序
+Maintainer: Amy While <support@anamy.gay>
+Installed-Size: 2224
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0)
+Filename: debs/Aemulo NFC模拟_1.2.5_iphoneos-arm64e.deb
+Size: 630160
+MD5sum: 2840c014e2a328ce45eecd44a059100e
+SHA1: abdae64381450ec5bd5c2891ed64e4521b3e829c
+SHA256: e69aa97b053a21e0e37dc91694b5ece476f5ad0af0c05a1414d63991d46b475e
+SHA512: e168cd3e085b8352b5d9aebf89b292902cd45f35cc361fea343782beab032596a3ebe11ca5cff4527453c778fe91d4872230753e96c99f97bace541264dce028
+Description: NFC付费App纯净砸壳。
+Name: Aemulo NFC模拟
+Author: Amy While <support@anamy.gay>
+Icon: https://s1.imagehub.cc/images/2026/01/04/7c96709445ff5c46b3eec04f7863b889.png
+
 Package: ws.hbang.alderis
 Architecture: iphoneos-arm64e
 Version: 1.2.3-8+debug
@@ -21,6 +40,25 @@ Depiction: https://chariz.com/get/alderis
 Icon: https://img.chariz.cloud/icon/alderis/icon@3x.png
 Support: https://hashbang.productions/support/
 dev: hbang
+
+Package: com.binglan.kongzhidiy
+Architecture: iphoneos-arm64e
+Version: 2.3.6-end
+Section: Tweaks
+Maintainer: binglan
+Installed-Size: 8024
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate, firmware (>= 15.0), com.opa334.ccsupport
+Filename: debs/CCPrimeX_2.3.6-end_iphoneos-arm64e.deb
+Size: 3733312
+MD5sum: 9a9ea119340306a8ec9453a3b5a204d6
+SHA1: 374e04bf2090e35f87f2093541f0a29080e93e5e
+SHA256: 96766819bf156c9a5fed8412c60647ffb935602e342df81b9c8728f6df57bccb
+SHA512: 6ba4d64339aacaca768c5ce98f059307e350428c453ce02aee1db72a3ec9900618bbc7748c199f172bd547420ba00458eb5feb962435f5c5b5f32aaed70084cb
+Description: 控制中心中心美化？
+Name: CCPrimeX
+Author: binglan
+icon: https://huayuarc.github.io/icon/binglanKongzhi.png
 
 Package: ws.hbang.common
 Architecture: iphoneos-arm64e
@@ -69,6 +107,47 @@ Icon: https://lakr233.github.io/Irisin/icon.png
 Depiction: https://lakr233.github.io/Irisin/
 SileoDepiction: https://lakr233.github.io/Irisin/depiction.json
 Author: OwnGoal Studio <no-reply@owngoal.dev>
+
+Package: com.wkk.onesettings
+Architecture: iphoneos-arm64e
+Version: 2.2
+Section: Tweaks
+Maintainer: wkk
+Installed-Size: 1084
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: firmware (>= 14.0), mobilesubstrate (>= 0.9.5000), com.mrgcgamer.libgcuniversal, preferenceloader
+Conflicts: com.shepgoba.settingswidgets, com.creaturecoding.shuffle
+Filename: debs/OneSettings_2.2_iphoneos-arm64e.deb
+Size: 225276
+MD5sum: 0267d3c91933bd00c55083918f6cea16
+SHA1: 024e799c515d7c1f40e24668d6f3f9957621d9cb
+SHA256: 663646efa7a1ba5fc649ea658e03105bb32f214fd84a3d5f42d5c26e78bc4126
+SHA512: da4908ad68fa106dcc1833e87560fcd25c33f61c5f1f00639ecb30572c23fd41061326ce56d502e29ca078b7b5ad2c0288089b2912483bb01181f066c51d119d
+Description: 插件归类，已汉化。
+Author: Nightwind
+Name: OneSettings
+Sponsor: wkk
+icon: https://sini921.github.io/repo/sileodepiction/icon/onesett.png
+
+Package: roothide.patches.filza
+Architecture: iphoneos-arm64e
+Version: 0.6-1
+Section: RootHide Patches
+Maintainer: roothide
+Installed-Size: 284
+Provides: patches-com.tigisoftware.filza64bit (= 4.0.1-4~roothide)
+Depends: com.roothide.patchloader
+Recommends: com.tigisoftware.filza64bit (= 4.0.1-4~roothide)
+Conflicts: com.tigisoftware.filza64bit (>> 4.0.1-4~roothide), com.tigisoftware.filza64bit (<< 4.0.1-4~roothide)
+Filename: debs/Patches for Filza 64bit_0.6-1_iphoneos-arm64e.deb
+Size: 34332
+MD5sum: 3bd3c4e61d7d61a396ce2cd7b0f8b828
+SHA1: 9bef2a878ca2ccf35d830d547b9623a1e8ff04d3
+SHA256: 49cb291344990e6f5e09855a401844c5fb456b46a9582bb842e67a46f462a62e
+SHA512: ec187a8b8145ab14476861c846526f50bb857c0659abe258142efde064cea029c340c3ea7e44e504163617af5691ac13bd542a34614f2fb59b8258f918e8a3ca
+Description: RootHide Dynamic Patches For Filza
+Name: Patches for Filza 64bit
+Author: roothide
 
 Package: com.jontelang.snapper3
 Architecture: iphoneos-arm64e
@@ -125,6 +204,46 @@ Description: 先在模拟界面保存标签!
 Name: aemulo自动模拟 - rootless
 Author: zqbb
 SileoDepiction: https://rootless.002599.xyz/web/zp.aemuloauto.rootless
+
+Package: org.coolstar.libhooker
+Architecture: iphoneos-arm64e
+Version: 1.6.9-22+roothide
+Priority: optional
+Section: Tweak Injection
+Maintainer: libhooker roothide port contributors
+Installed-Size: 580
+Provides: ellekit (= 1.2-3), mobilesubstrate (= 99)
+Depends: firmware (>= 16.0), firmware (<< 18.0), roothide
+Conflicts: ellekit, mobilesubstrate, com.ex.substitute, science.xnu.substitute, com.saurik.substrate.safemode
+Replaces: ellekit, mobilesubstrate, com.ex.libsubstitute
+Filename: debs/libhooker (roothide port)_1.6.9-22+roothide_iphoneos-arm64e.deb
+Size: 48564
+MD5sum: aad671518be69fb4b9f220b3dfae061c
+SHA1: 6bdea14c8e7f69f8db1ca6580fdceeb21c446035
+SHA256: 24cd3644a62953ce75ea50b57597281f00481261bb8dbbd729e4dcdddcf2c5a2
+SHA512: b0a2d77307a6153d01256a191f5528b6ae2a55316669929ee77ade9b6915718bbd645a1993ec205fddced9931c6308be515eb2248b9648b0a6f773eb5a9125f4
+Description: libhooker engine, tweak loader and safe mode for iOS 16+ roothide
+Name: libhooker (roothide port)
+Author: CoolStar and contributors
+Icon: https://apt.002599.xyz/web/icon/org.coolstar.libhooker.png
+SileoDepiction: https://apt.002599.xyz/web/org.coolstar.libhooker
+
+Package: com.yourepo.ok95.4
+Architecture: iphoneos-arm64e
+Version: 7.0.5
+Section: Tweaks
+Maintainer: fuck vip <kk99588077@gmail.com>
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate
+Filename: debs/去他妈的充值会员_7.0.5_iphoneos-arm64e.deb
+Size: 352888
+MD5sum: 7569c16a030dc4eda8620c137fbcb712
+SHA1: eda1acc80e3bd233cf57655a6ac394da956cb987
+SHA256: 0f1934cbc9b57043c7d79ab7d6f214a38a21291c6f21d32139b446e73f7ad677
+SHA512: 02ab9895c95909858763b38c994a8f395fe0960dc6e2b4a74e475cdd802ea73e0aaef9db3315241423e4a0d960db92c5febf13f46600223acdd906c92521f98c
+Description: 破解软件会员合集，无需依赖，不会影响系统进程，部分失效！自己打包的合集，请勿反馈，谢谢理解。红字报错请根据日志移除相关的破解插件即可，此插件只破解软件，不会破解其它插件。
+Name: 去他妈的充值会员
+Author: fuck vip <kk99588077@gmail.com>
 
 Package: com.xybp888.callassist16.dopamine.roothide
 Architecture: iphoneos-arm64e
