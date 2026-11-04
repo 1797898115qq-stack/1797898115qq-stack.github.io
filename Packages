@@ -81,6 +81,29 @@ Icon: https://img.chariz.cloud/icon/cephei/icon@3x.png
 Depiction: https://chariz.com/get/cephei
 Support: https://hashbang.productions/support/
 
+Package: im.mjh.doleo.roothide
+Architecture: iphoneos-arm64e
+Version: 1.0.2
+Section: Tweaks
+Maintainer: Junhong
+Installed-Size: 1008
+Depends: firmware (>= 15.0), mobilesubstrate, dpkg
+Filename: debs/Doleo (Roothide)_1.0.2_iphoneos-arm64e.deb
+Size: 235140
+MD5sum: b1380bd3f535c6d0f4ed5b6156e7661a
+SHA1: 4960507af30d703e9fff914c4d26c0f30bad3c43
+SHA256: 336f4eba1a9674f69fc8dd747496e63a3db772a3ec087dbe5a834a639c20214a
+SHA512: e4da3c544f28ae1020296efb99b791e4974ec56c007e3e960e9b6d8fb30b6272b4ca6391227ac339e1e2a510637bab5ebbb80065e616d7fc0a4c2f4b3a6ab151
+Homepage: https://doleo.goforit.si/
+Description: Sileo 的 DEB 下载与本地仓库工具。
+Name: Doleo (Roothide)
+Author: Junhong
+Icon: https://apt.mjh.im/assets/im.mjh.doleo.roothide/icon.png
+Depiction: https://apt.mjh.im/depiction/web/im.mjh.doleo.roothide.html?v=a89cb7b26821
+SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.doleo.roothide.json?v=c36783201cc5
+ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.doleo.roothide.json?v=c36783201cc5
+Tags: compatible_min::ios15.0
+
 Package: wiki.qaq.irisin
 Architecture: iphoneos-arm64e
 Version: 5.1.6
@@ -148,6 +171,41 @@ SHA512: ec187a8b8145ab14476861c846526f50bb857c0659abe258142efde064cea029c340c3ea
 Description: RootHide Dynamic Patches For Filza
 Name: Patches for Filza 64bit
 Author: roothide
+
+Package: preferenceloader
+Architecture: iphoneos-arm64e
+Version: 2.2.8
+Section: System
+Maintainer: ProcursusTeam <support@procurs.us>
+Installed-Size: 340
+Depends: mobilesubstrate
+Filename: debs/PreferenceLoader_2.2.8_iphoneos-arm64e.deb
+Size: 15860
+MD5sum: 973744733f1d1e99e6e9fcdfb6087ee7
+SHA1: 3c37cfa767e6d91ec39ce4de1cd6e1557a782b95
+SHA256: 608742eab8bd58563a793637d2dbac6438618ffb9c0832735dd06fcd0fd3b86d
+SHA512: 8dfb69cf1c7698801cd3623a8ec60e9a162ff908fcfa029c448eccac2c26c31329459790baf217f7497a47c27b7f7428631053e74e6b0e3b40f5f6b3569cf439
+Description: load preferences in style
+Author: Dhinak G <dhinak@dhinak.net>
+Name: PreferenceLoader
+
+Package: org.coolstar.sileo
+Architecture: iphoneos-arm64e
+Version: 2.5.1-15
+Section: Packaging
+Maintainer: Amy While <me@anamy.gay>
+Depends: firmware (>= 11.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), coreutils (>= 8.30-1), dpkg (>= 1.19.4-1), apt (>= 1.8.2), libzstd1
+Filename: debs/Sileo_2.5.1-15_iphoneos-arm64e.deb
+Size: 1436
+MD5sum: faa1ea84bae9bf05cd90edb34a36cd04
+SHA1: 67038ca119e23bde40ec1c5de464be173b2515c0
+SHA256: b77aafe4d1dd167fc7c3d91352cfcc6fce472ffcf05ebe064ed14a777cf0989b
+SHA512: 974753ea8cfdefd052a1d54d3e3e610e01a5a1ef9772f4029ff8031e0390b36563342e07bae00a5b59f4c600041ab1b16730614247d683bfa6d1f50aba5ced2a
+Description: A modern APT package manager frontend
+Name: Sileo
+Author: Amy While <me@anamy.gay>
+Icon: https://getsileo.app/img/icon.png
+SileoDepiction: https://featuredpage.getsileo.app/depiction.json
 
 Package: com.jontelang.snapper3
 Architecture: iphoneos-arm64e
