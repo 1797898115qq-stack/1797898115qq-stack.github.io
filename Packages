@@ -59,6 +59,42 @@ Icon: https://img.chariz.cloud/icon/alderis/icon@3x.png
 Support: https://hashbang.productions/support/
 dev: hbang
 
+Package: com.opa334.altlist
+Architecture: iphoneos-arm64e
+Version: 1.0.11
+Section: System
+Maintainer: opa334
+Installed-Size: 340
+Depends: firmware (>= 7.0)
+Filename: debs/AltList_1.0.11_iphoneos-arm64e.deb
+Size: 27912
+MD5sum: c7a72fc919829aebccb120031d717b2d
+SHA1: 34e2219c8045c718a30abc406d1e7e61da3e3707
+SHA256: 383a18f0612f08c04831940c8b478e26c4b86056949ffe938206818d59e953c5
+SHA512: a2048eae68710c5872eb736a91e3dda52021945fd97807f312ed520d17f963c4cc2c98e8765d3711e55b96b310ecbd32751118938b2cf24f91c8b7e9abcc7d93
+Description: A modern AppList alternative
+Tag: role::developer
+Name: AltList
+Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=altlistDp
+Author: opa334
+
+Package: com.flex2areo.apptools15roothide
+Architecture: iphoneos-arm64e
+Version: 2.9.2
+Section: Tweaks
+Maintainer: aReo
+Installed-Size: 5536
+Depends: mobilesubstrate
+Filename: debs/AppTools15-17(Roothide)_2.9.2_iphoneos-arm64e.deb
+Size: 2388736
+MD5sum: e25cd6c1582db11e4aa38cb0b2d8d971
+SHA1: d4e3e759db1fd3a3dd2c755c3aefab9d0828b604
+SHA256: 95e15bda53298e6d6be328c9a941295023bba664046e860664dd5900328b5b31
+SHA512: a62816e4004ede72b898180bb0b55fcd1ddaa37143f7c54ec0c1cf7dbd83cf48cd9b90dd2db90170dffd8aa5593388fb7e5d787f0d6deff0c5959fef49a40f87
+Description: AppTools for iOS15-17 Roothide
+Name: AppTools15-17(Roothide)
+Author: aReo
+
 Package: com.sini921.ccborder
 Architecture: iphoneos-arm64e
 Version: 1.1.2-44
@@ -96,6 +132,27 @@ Description: 控制中心中心美化？
 Name: CCPrimeX
 Author: binglan
 icon: https://huayuarc.github.io/icon/binglanKongzhi.png
+
+Package: com.opa334.ccsupport
+Architecture: iphoneos-arm64e
+Version: 1.3.13-2-15+debug
+Section: Tweaks
+Maintainer: opa334
+Installed-Size: 716
+Provides: com.ioscreatix.silo
+Depends: mobilesubstrate, firmware (>= 11.0)
+Conflicts: com.ioscreatix.silo
+Replaces: com.ioscreatix.silo
+Filename: debs/CCSupport_1.3.13-2-15+debug_iphoneos-arm64e.deb
+Size: 73412
+MD5sum: c225d5d6c597ec0a4031bfc5bbd610d0
+SHA1: d5728db2a18f19dc00d699ed0bff8ff65a8539e9
+SHA256: fa17767f0b66f5d73926f69dc55007fa4bfc8d7fa1d323e1984f283f23ee37b3
+SHA512: 5011d49bea09fb36f60645ad7b40572c2ce8ccb8017911ee299d8b16a8d831a5d013be455ab6bc652af3d8881c500fbad56c6ed4c8727dcfd06106493aec1414
+Description: Support tweak for CC modules!
+Name: CCSupport
+Author: opa334
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccsupportDp
 
 Package: ws.hbang.common
 Architecture: iphoneos-arm64e
@@ -266,6 +323,23 @@ Name: OneSettings
 Sponsor: wkk
 icon: https://sini921.github.io/repo/sileodepiction/icon/onesett.png
 
+Package: com.roothide.patchloader
+Architecture: iphoneos-arm64e
+Version: 0.0.8
+Section: System
+Maintainer: roothide
+Installed-Size: 132
+Filename: debs/PatchLoader_0.0.8_iphoneos-arm64e.deb
+Size: 3828
+MD5sum: 20d954c03120d9e58b5b7a7089bb812d
+SHA1: f5bbc2db8ae062f12919d7b83b28d69ba30a3780
+SHA256: 0179e6820ff9f762c7f77296e4fefa3a888e7037576d299b4fb75087b07396c4
+SHA512: 80f22b09fac504a607015113f46bd3252fefc3cf628c544171faf25da9ce91ef44c858dbe9d5d1507c5941f9b01d09b37b49d9bedec6c7983b212445230a12e1
+Description: RootHide Dynamic Patches Loader
+Tag: role::developer
+Name: PatchLoader
+Author: roothide
+
 Package: roothide.patches.filza
 Architecture: iphoneos-arm64e
 Version: 0.6-1
@@ -342,6 +416,26 @@ SHA512: 7b0549f44397c8bc0c390939212c0acb52c1caaaef28dcd229aadb17641d994547ee8c20
 Description: 基于 Crane 开发，感谢作者 opa334 编译开发的优秀插件；需安装原版的 Crane 即可生效
 Name: Rain的容器
 Author: Rain
+
+Package: com.roothide.manager
+Architecture: iphoneos-arm64e
+Version: 1.4.1
+Section: System
+Maintainer: roothide
+Installed-Size: 1148
+Depends: firmware (>= 15.0)
+Filename: debs/RootHide Manager_1.4.1_iphoneos-arm64e.deb
+Size: 757376
+MD5sum: 2a62333ebc3ad7d63b0f034569b0c5a4
+SHA1: 7376a0e9b34ee1284c5b3e559ed453f642819bf8
+SHA256: 74c3c8df928617c47989e69fbefa1360e00a89e92f1e23475356c975f955e142
+SHA512: 1262dada3b5db3399e7a132fd692ec0a0c696c81fa40632c2198bfc1cbd9691bbdabefc0ea92315b27c94a8864350d16a22641b181874df34dba07bba8830229
+Description: Configuare RootHide's Features
+Name: RootHide Manager
+Author: roothide
+Icon:
+Depiction: https://github.com/roothide/RootHideManagerApp
+Support: https://github.com/roothide/RootHideManagerApp
 
 Package: com.wkk.sileosourcesearch
 Architecture: iphoneos-arm64e
@@ -580,6 +674,24 @@ Name: iCleaner Pro
 Icon: https://TrollStoreX.Github.io/sileodepiction/iCleanerPro/icon.png
 SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/iCleanerPro/js.json
 
+Package: com.opa334.libsandy
+Architecture: iphoneos-arm64e
+Version: 1.1.6-4
+Section: System
+Maintainer: opa334
+Installed-Size: 468
+Filename: debs/libSandy_1.1.6-4_iphoneos-arm64e.deb
+Size: 19728
+MD5sum: 24945b7ea08039c9790f5757f0e5f2ea
+SHA1: 46f161aeffaff23d7d9be30fd19b49c001a5b4f0
+SHA256: 62fc3d04880b4a2e11d33f18913d7f8ad5c9c57b2b7e3318e5405a853e076bb8
+SHA512: ee74ad4d61e56b42f89095fd49594166bf8b21d5b315c920afebbfc65adfd86ab23e14bbd32c3ba1f6c7029f734689b15fc325dc387e0931270fd85c2ad01833
+Description: Securely extend the sandbox of system processes and user applications
+Tag: role::developer
+Name: libSandy
+Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libsandyDp
+Author: opa334
+
 Package: org.coolstar.libhooker
 Architecture: iphoneos-arm64e
 Version: 1.6.9-22+roothide
@@ -619,6 +731,23 @@ Description: Patchfinder and rebinder for objc_direct methods
 Tag: role::developer
 Name: libundirect
 Author: opa334
+
+Package: com.roothide.lockdown
+Architecture: iphoneos-arm64e
+Version: 2.0
+Section: Tweaks
+Maintainer: roothide
+Installed-Size: 136
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/lockdown_2.0_iphoneos-arm64e.deb
+Size: 5376
+MD5sum: 6f4c19de3932a7c6975331638004ba33
+SHA1: 46f1c3cef01690ad79decd1fda03fab832c78797
+SHA256: 422c1b0497723663581d84db30b9408b81f0abd749bdbcaee3a335f904e5a856
+SHA512: f8ab5e0071e361015c32eba45472696e75d00e31a3ce830304fcae56d23219a6df5f46bb02c35e0a49cf4eeaef791c83e1504d6f63adc2d4261e10e1909703a3
+Description: JSC security hardening for WebContent process. Configures JavaScriptCore options to eliminate exploit primitives (addrof/fakeobj, JIT type confusion, GC UAF). Enabled by default!
+Name: lockdown
+Author: roothide
 
 Package: com.yourepo.ok95.4
 Architecture: iphoneos-arm64e
@@ -674,4 +803,47 @@ Name: 电话助手iOS16-正式版(Roothide)
 Author: xybp888
 Depiction: https://apt.htv123.com/view/1123
 SileoDepiction: https://apt.htv123.com/sileo/1123
+
+Package: com.ntm.notifymanager
+Architecture: iphoneos-arm64e
+Version: 2.3.50
+Section: Tweaks
+Maintainer: yzdmm2024
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: debs/通知管理_2.3.50_iphoneos-arm64e.deb
+Size: 111888
+MD5sum: 96043825d30afab2a9582b7970f0bc07
+SHA1: 04c1b56e746e204d5cf2c4383166ee5eb1532fa8
+SHA256: 819134e8f6e317d88c3f36e624176cc51ed559d08e7984946c36214171a89b10
+SHA512: 96a49c9ed4df4d459ab743837cae9c9a00a957e6cfe2ca164f6d3d93af21d6a39a867791ddaca3c18714cfac64ee2b0860337a43d12e16c5099cd92f31571853
+Description: 通知管理 - 按 App 管理通知与网络，同步系统「蜂窝网络」设置
+ 轻量级 SpringBoard 通知 / 网络管理工具：无定时器、无轮询，通知到达只做内存查表，
+ 空闲时不耗电；不在后台常驻任何进程。
+ .
+ 【通知管理】按「用户应用 / 巨魔应用 / 系统应用」列出手机上所有真实 App
+ （自动过滤隐藏的系统辅助服务，无图标的系统组件不显示），逐个 App 控制：
+ - 总开关：关闭后该 App 的通知不再显示
+ - 分项开关：锁定屏幕 / 通知中心 / 横幅 / 声音 / 标记，各自独立
+ - 隐藏预览：只显示 App 名称，不显示具体内容
+ - 仅隐藏角标：保留通知，只去掉数字角标
+ - 关键词过滤：命中关键词的通知自动丢弃
+ .
+ 【网络管理】与「设置 - 蜂窝网络 - 某 App 的蜂窝数据」同源：
+ - 每个 App 可选：Wi-Fi + 蜂窝 / 仅 Wi-Fi / 仅蜂窝 / 完全断网
+ - 后台自动断网：App 进后台即切断已建立连接并拒绝新建连接，回前台自动恢复
+ - 新装 App 首次联网不再弹「允许使用无线数据」，按面板配置静默放行
+ - 不需要拦截时可一键关闭，恢复系统原生选择框
+ .
+ 【其他】
+ - 批量控制、搜索、单应用重置、配置导入导出
+ - 自动授权通知权限：抹除或还原设置后，打开 App 不再弹「想给您发送通知」
+ - 面板内置诊断日志，可查看弹窗拦截的命中情况
+ .
+ 支持系统：iOS 14 / 15 / 16 / 17（arm64、arm64e）
+ iOS 14 请安装 rootful 版；iOS 15 及以上安装 rootless 版。
+ 有问题请在「设置 - 通知管理」右上角点「反馈」，附上机型与系统版本。
+Name: 通知管理
+Author: yzdmm2024
+Firmware: >= 14.0
 
