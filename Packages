@@ -469,6 +469,26 @@ Author: zhaonan
 SileoDepiction: https://invalidunit.github.io/sileodepiction/com.nan.givemedeb/js.json
 Icon: https://invalidunit.github.io/sileodepiction/default/image_fix.png
 
+Package: cn.zqbb.stopautolaunchapps
+Architecture: iphoneos-arm64e
+Version: 2.5
+Section: zqbb Tweaks
+Maintainer: zqbb
+Installed-Size: 1120
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
+Conflicts: zp.stopautolaunchapps
+Filename: debs/Hello 3Q_2.5_iphoneos-arm64e.deb
+Size: 254732
+MD5sum: bb9060d9152825c832ffc058e67d1b52
+SHA1: 44d0fb5fff6c020537209649e4352cf8457841c3
+SHA256: f674af6740233f5c15462f144b2b5710de5b25490235b97bc14b13e1d1377ec8
+SHA512: 6963b5f517897fbc428f8a64d3d442deb2a387aef1ced4866cd21c38385963ac06a160606981c840cb607bdd47dbc0a64f445097ff8412252da102bd5b2a4d5d
+Description: 别在后台热加载app咯! 
+ - 优点:节约内存,少杀后台.
+Author: zqbb
+Name: Hello 3Q
+SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.stopautolaunchapps
+
 Package: com.dao.immortalizer
 Architecture: iphoneos-arm64e
 Version: 2.0.1
