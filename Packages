@@ -1329,6 +1329,23 @@ Description: TrollOpen 的越狱版本，支持 ios16 及以上，免费公开�
 Name: TrollOpen
 Author: Charlie Leung
 
+Package: zone.uni9k.umount
+Architecture: iphoneos-arm64e
+Version: 1.3.0
+Maintainer: uni9k
+Installed-Size: 4964
+Filename: debs/UMount 挂载器-1.3.0-iphoneos-arm64e.deb
+Size: 1613428
+MD5sum: 4281e22a42df03a2aec73a6439fda9d1
+SHA1: 53e120b9bfadc4084540633115e1b759eb4571a5
+SHA256: e4146710fbae4f9e0f33fb3ccc3b61c6376074e8ab4b73b2d8609e0f86354c6b
+SHA512: 2fd357974df93522867bc1af32ed2ab0dc4edb109eec302775bc1facb1e84f6cf9b42cd3a39b34d6253a79ca28971de262bd32b65e84aa9d9529486544eea075
+Section: Tweaks
+Description: Native SwiftUI system-directory bind-mount manager for Relaxin / RootHide, with kernel-ucred fallback, diagnostics, RootHide safe-mode gating, and bootloop protection.Relaxin / RootHide的原生SwiftUI系统目录绑定安装管理器，具有内核ucred回退、诊断、RootHide安全模式门控和引导循环保护。
+Name: UMount 挂载器
+Author: uni9k
+icon: https://huayuarc.github.io/icon/UMount.png
+
 Package: com.huayuarc.vpncontrolcenter
 Architecture: iphoneos-arm64e
 Version: 1.1.1
