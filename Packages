@@ -818,7 +818,7 @@ Installed-Size: 1180
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate (>= 0.9.5000) , firmware (>= 15.0), preferenceloader, com.opa334.altlist
 Conflicts: cn.zqbb.fix120hz15, com.zqbb.fix120hz, cn.zqbb.fix120hz
-Filename: debs/Dynamic120hz VH(Roothide)-3.3.3-3k-iphoneos-arm64e.deb
+Filename: debs/Dynamic120hz VH(Roothide)-3.3.3-3k-iphoneos-arm64e (1).deb
 Size: 399420
 MD5sum: c19ee216242398ae8ceced2dbf81fd3f
 SHA1: bac5474b467989bd0c63b73e5adedda5e06abaa1
