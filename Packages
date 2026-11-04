@@ -1,3 +1,67 @@
+Package: ws.hbang.alderis
+Architecture: iphoneos-arm64e
+Version: 1.2.3-8+debug
+Section: Development
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Installed-Size: 6016
+Provides: org.thebigboss.libcolorpicker (= 99.0), me.nepeta.libcolorpicker (= 99.0)
+Depends: firmware (>= 12.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), uikittools
+Replaces: org.thebigboss.libcolorpicker, me.nepeta.libcolorpicker
+Filename: debs/Alderis Color Picker_1.2.3-8+debug_iphoneos-arm64e.deb
+Size: 550416
+MD5sum: d5cb7cdd132803ce6037af01fafc6b12
+SHA1: 6f4edaf9980dcde95864d938972e303b67063cce
+SHA256: 49b0783ffab6e4085b236f0bc5bde0cc32aa4736a052c492d69abb3b9d6733f2
+SHA512: d968b8756668cf1c5b4417c86e2131980b48274257bc8b1bfabd6eabb0d60c2bd419ebd1dab3f0271170ce795cb7d1971951b34ee4820cccdd452cf7d25a7067
+Description: Color picker support library for tweaks
+Tag: role::developer, compatible_min::ios12.0
+Name: Alderis Color Picker
+Author: HASHBANG Productions <support@hbang.ws>
+Depiction: https://chariz.com/get/alderis
+Icon: https://img.chariz.cloud/icon/alderis/icon@3x.png
+Support: https://hashbang.productions/support/
+dev: hbang
+
+Package: ws.hbang.common
+Architecture: iphoneos-arm64e
+Version: 2.0-51
+Section: Development
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Installed-Size: 3260
+Depends: firmware (>= 15.0)
+Filename: debs/Cephei Tweak Support_2.0-51_iphoneos-arm64e.deb
+Size: 273196
+MD5sum: c81f436a15a73589b35f37abcd7fe049
+SHA1: 166d69e965f1471eb39a5c5093198901edb6932d
+SHA256: 09e093a2f215924cc60e12b03de940eca8ff453086de123d3f55dd7ffd8f7685
+SHA512: 9b1160ea1388991c524016dc8d47c748f107a98a3700ccadcc80feaeb325eaa312f02dfdb6815bab662765eeb17fac1a803cc0fde897fdbbb098aad4013aa696
+Description: Support library for tweaks
+Tag: role::developer, compatible_min::ios15.0
+Name: Cephei Tweak Support
+Author: HASHBANG Productions <support@hbang.ws>
+Icon: https://img.chariz.cloud/icon/cephei/icon@3x.png
+Depiction: https://chariz.com/get/cephei
+Support: https://hashbang.productions/support/
+
+Package: com.jontelang.snapper3
+Architecture: iphoneos-arm64e
+Version: 1.2.1
+Section: Tweaks
+Maintainer: Jonathan Winger-lang
+Installed-Size: 4148
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader
+Conflicts: com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
+Filename: debs/Snapper 3_1.2.1_iphoneos-arm64e.deb
+Size: 1265604
+MD5sum: abc5abec51fbd5ea7e0d5bf5ec018069
+SHA1: 14a19bb9fe0bced0a113d3584d981866cd6d035a
+SHA256: 10f5ea785cb2ff174c135a777496c87479b20d59623ccbe65be104ed90d28014
+SHA512: 4a08cdc5347ffaec3e5ba961eec81624390eb2f1dfd1e67541c314d7ad187c1be218fab99f0340bbf7650d70bf1e343d34a2a5ddb8aa65e914018b0a6c0271a0
+Description: Pin screenshots on the screen.
+Name: Snapper 3
+Author: Jonathan Winger-lang
+
 Package: zp.aemuloqs.rootless
 Architecture: iphoneos-arm64e
 Version: 1.0.0-3
@@ -15,4 +79,23 @@ Description: 锁屏界面解锁后双击手电筒或相机按钮,桌面双击或
 Name: aemulo快速启动 - rootless
 Author: zqbb
 SileoDepiction: https://rootless.002599.xyz/web/zp.aemuloqs.rootless
+
+Package: zp.aemuloauto.rootless
+Architecture: iphoneos-arm64e
+Version: 0.0.1
+Section: Tweaks
+Maintainer: zqbb
+Installed-Size: 168
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate
+Filename: debs/aemulo自动模拟 - rootless_0.0.1_iphoneos-arm64e.deb
+Size: 4092
+MD5sum: f140a2d0f9cda14b88897a75afa0e164
+SHA1: f5e09637a69072182a386d7e59acc6fbd95b2f8f
+SHA256: d973b181eb99ad0c006e6d9230f0f589ef0895f360627bcd25db1797cfeb797a
+SHA512: 686fd49f726dd6c5c9d88b93334e0955c80fdf64f85ffa3c5f510d9c3a387998bc18b2918040661d8349f27226937ee7383fc0a8c30878f75ce5375c0356ef86
+Description: 先在模拟界面保存标签!
+Name: aemulo自动模拟 - rootless
+Author: zqbb
+SileoDepiction: https://rootless.002599.xyz/web/zp.aemuloauto.rootless
 
