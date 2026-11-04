@@ -734,6 +734,26 @@ Description: Choicy白名单 (支持iOS 15-17 roothide)
 Name: Choicy-Whitelist
 Author: crctdd
 
+Package: com.Axs.copyvault
+Architecture: iphoneos-arm64
+Version: 1.9.0-1
+Maintainer: SquidForce, Backup
+Installed-Size: 6868
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: com.squidforce.copyvault,cn.octoforce.copyvault
+Filename: debs/CopyVault 鱿鱼剪贴板-1.9.0-1-iphoneos-arm64.deb
+Size: 1851480
+MD5sum: addc3c9f68aaba62f8ddcf65d08be19a
+SHA1: 54c7197eec177512c06ae5e30225dabaad70643f
+SHA256: 3822f1c66dae2a23bff392d1f7d8f23c50349f3bf1ca9153d821eff825201559
+SHA512: 6ebd9c4cdd84c02747075ff15e323e1d161d5617abb8c60a10d1c6aadf9831adbbf50b9e4afd0afa3d7b01561301045b086f2e9ba907168088554c63e54dd838
+Section: Tweaks
+Description: 激活码用户或需要激活码的用户安装这个，非激活码用户不要安装！！ [本包已内嵌 CCrack：安装后自动生成离线授权，无需激活码。CCrack 仅注入 SpringBoard。]
+Name: CopyVault 鱿鱼剪贴板
+Author: SquidForce, Backup
+Icon: https://axs66.github.io/pro/icon/copyvault.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/copyvault/js.json
+
 Package: com.muirey03.cr4shed
 Architecture: iphoneos-arm64e
 Version: 5.0.0
