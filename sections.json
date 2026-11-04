@@ -1,0 +1,119 @@
+{
+  "sections": [
+    {
+      "name": "Addons",
+      "orig": "Addons",
+      "pkgs": []
+    },
+    {
+      "name": "Applications",
+      "orig": "Applications",
+      "pkgs": []
+    },
+    {
+      "name": "B-分屏插件",
+      "orig": "B-分屏插件",
+      "pkgs": []
+    },
+    {
+      "name": "Bootstrap",
+      "orig": "Bootstrap",
+      "pkgs": []
+    },
+    {
+      "name": "Development",
+      "orig": "Development",
+      "pkgs": []
+    },
+    {
+      "name": "Packaging",
+      "orig": "Packaging",
+      "pkgs": []
+    },
+    {
+      "name": "RootHide Patches",
+      "orig": "RootHide Patches",
+      "pkgs": []
+    },
+    {
+      "name": "System",
+      "orig": "System",
+      "pkgs": []
+    },
+    {
+      "name": "System (Axs-Tweaks)",
+      "orig": "System (Axs-Tweaks)",
+      "pkgs": []
+    },
+    {
+      "name": "Tweak Injection",
+      "orig": "Tweak Injection",
+      "pkgs": []
+    },
+    {
+      "name": "Tweaks",
+      "orig": "Tweaks",
+      "pkgs": []
+    },
+    {
+      "name": "Utilities",
+      "orig": "Utilities",
+      "pkgs": []
+    },
+    {
+      "name": "rootless应用插件",
+      "orig": "rootless应用插件",
+      "pkgs": []
+    },
+    {
+      "name": "zqbb Tweaks",
+      "orig": "zqbb Tweaks",
+      "pkgs": []
+    },
+    {
+      "name": "嗨-付费",
+      "orig": "嗨-付费",
+      "pkgs": []
+    },
+    {
+      "name": "嗨-工具",
+      "orig": "嗨-工具",
+      "pkgs": []
+    },
+    {
+      "name": "嗨-系统",
+      "orig": "嗨-系统",
+      "pkgs": []
+    },
+    {
+      "name": "常用插件",
+      "orig": "常用插件",
+      "pkgs": []
+    },
+    {
+      "name": "应用程序",
+      "orig": "应用程序",
+      "pkgs": []
+    },
+    {
+      "name": "控制中心",
+      "orig": "控制中心",
+      "pkgs": []
+    },
+    {
+      "name": "越狱插件",
+      "orig": "越狱插件",
+      "pkgs": []
+    },
+    {
+      "name": "辅助工具",
+      "orig": "辅助工具",
+      "pkgs": []
+    },
+    {
+      "name": "插件",
+      "orig": "",
+      "pkgs": []
+    }
+  ]
+}
