@@ -1032,6 +1032,25 @@ Name: SquidExtender(激活码版)
 Author: SquidForce, Backup
 SileoDepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidextender/depiction.json
 
+Package: cn.octoforce.squidgesturepro
+Architecture: iphoneos-arm64e
+Version: 2.7.6-1
+Section: Tweaks
+Maintainer: SquidForce, Backup
+Installed-Size: 6668
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
+Conflicts: com.lclrc.squidgesture, com.lclrc.squidgesturepro
+Filename: debs/SquidGesturePro(激活码)_2.7.6-1_iphoneos-arm64e.deb
+Size: 1787756
+MD5sum: 7ac7467dc2fffc77f05f88bb34fb3799
+SHA1: e62731709a09b1d54b0f5bf870582228189615fe
+SHA256: b958591086686c95f6bfcd57163c3c451aa38ffa0cd7fab12a998a720b35c4bf
+SHA512: 3e1316a7b5adfb042061cbc739f26048802114a9a385c09755a5d5e104b5c50771e1e215e37b7f40158eb878abca407908c81879fc77b2867a4f15e6ca37bad0
+Description: Gestures，激活码用户或需要激活码的用户安装此包，非激活码用户不要装!
+Name: SquidGesturePro(激活码)
+Author: SquidForce, Backup
+SileoDepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidgesturepro/depiction.json
+
 Package: com.82flex.touchvis
 Architecture: iphoneos-arm64e
 Version: 4.2
