@@ -347,6 +347,29 @@ Author: xybp888
 Depiction: https://apt.htv123.com/view/999
 SileoDepiction: https://apt.htv123.com/sileo/999
 
+Package: com.iosrxwy.fanqiehehe
+Architecture: iphoneos-arm64
+Version: 0.1-1
+Priority: optional
+Maintainer:
+Depends: firmware (>= 5.0), mobilesubstrate
+Conflicts:
+Replaces:
+Filename: debs/番茄呵呵.deb
+Size: 64014
+MD5sum: 6d642f6e9e7fc3be07fc1301c2ad7e15
+SHA1: ac87b601ace9e2a60ae2fb7a990d719f2e774398
+SHA256: fec8c97a5ba172eba223c0fd21d5fb3c05644fe03a55c40c1717de888e9b2130
+SHA512: bf6320ef87b178a51a03dbbfe50fe3b14b97561e9eede4f2ca9ec7ddd246a27be83ed161d4ca9a58e580b4ca47647028ece2c48e6bfb2a53d9df44b794d02eee
+Homepage:
+Section: System
+Description: 解锁番茄小说、番茄畅听、红果短剧
+Name: fanqiehehe
+Author: iosrxwy
+dev:
+Depiction:
+Icon:
+
 Package: com.yourepo.axs.snapper
 Architecture: iphoneos-arm64e
 Version: 5.2.0-326
@@ -469,6 +492,25 @@ Depiction: https://bvnrepo999.github.io/infodeb/Html/Airaw.html
 SileoDepiction: https://bvnrepo999.github.io/sileodepictions/Airaw.json
 Icon: https://bvnrepo999.github.io/icon/tinhchinh.png
 
+Package: com.axs.airaw
+Architecture: iphoneos-arm64e
+Version: 1.6.7
+Maintainer: Axs
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0), ws.hbang.common, com.opa334.ccsupport
+Filename: debs/Airaw_1.6.7_iphoneos-arm64e.deb
+Size: 11704020
+MD5sum: ac8ea56dd476f409d2904db1fc19a015
+SHA1: a362a0e0f233a5822c62d55e2b1bf7ac5fa0370c
+SHA256: ad3f53eca0ec508c15d044f703b2400bb0ff3565ebcbde847e4852aa9a110037
+SHA512: bda98d581e218601ff9b28b57a99540618273b1082bbdca5a5cd821f44a42b9dd63bc6eee5c54231586e9c217a73822b4e06accde8ad4882b0ef2f332dcdb7b3
+Section: Tweaks
+Description: Carplay拓展插件，可以改壁纸，让不是全屏显示的软件变成全屏，配合carbrige插件使用，改图标个数比例。
+Name: Airaw
+Author: Dcsyhi
+Icon: https://axs66.github.io/repo/icon/airaw.png
+Sileodepiction: https://axs66.github.io/repo/sileodepiction/airaw/js.json
+
 Package: com.flex2areo.appprotect
 Architecture: iphoneos-arm64e
 Version: 2.4.9
@@ -588,6 +630,27 @@ Description: Support tweak for CC modules!
 Name: CCSupport
 Author: opa334
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccsupportDp
+
+Package: com.wkk.carbridge13
+Architecture: iphoneos-arm64e
+Version: 2.0.15
+Maintainer: leftyfl1p
+Installed-Size: 7344
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0), preferenceloader, com.opa334.altlist (>= 1.0.10)
+Conflicts: com.leftyfl1p.carplay, com.eason.carplay, com.eason.carplay.ios11, com.cortex.carplayenable
+Filename: debs/CarBridge_2.0.15_iphoneos-arm64e.deb
+Size: 441492
+MD5sum: e7de97c6836419fbbf0e8e70c11ac41a
+SHA1: 6b7299dbc0a7c36c4624d93c656c200c2b8c424a
+SHA256: b044a06820c2e4ad50006be830bd308ed81fb9716f3d72938742702e12f097f6
+SHA512: af481bfdaaa1a857ef56ddd8c3c0aca5ddf8d99a609054e321afa45c4ed9f539ddfe09969cecf1b2bc54f950fe57b573512c29520dbb25564ff8ecd5ff1f9fec
+Section: Tweaks
+Description: Open any app in CarPlay!（正版砸壳，有能力请支持正版）
+Name: CarBridge
+Author: leftyfl1p <carbridge@havoc.app>
+Depiction: https://havoc.app/package/carbridge
+Icon: https://repo.cypwn.xyz/packages/CarBridge-Rootless/icon.png
 
 Package: com.bvn.carcast.r2
 Architecture: iphoneos-arm64e
@@ -1036,6 +1099,24 @@ Description: Pin screenshots on the screen.
 Name: Snapper 3
 Author: Jonathan Winger-lang
 
+Package: com.huayuarc.sneakycam
+Architecture: iphoneos-arm64e
+Version: 2.2.5-1
+Maintainer: Huayuarc
+Installed-Size: 1424
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/SneakyCam 隐私相机_2.2.5-1_iphoneos-arm64e.deb
+Size: 124604
+MD5sum: 56db3b0965da8fdcff396d44e08c19ce
+SHA1: 42056f7195ce9221fe7822dc8ab4f5771d5e2f42
+SHA256: c818952438989be1e70072631494e85a616732fee3f105202e94df89785d79bf
+SHA512: 44a6a042408568a752053e5e82b40e5939014ecbeb164c778fab76a542978a47317489626be036776a127e84e380852900bb9228a8fc26b769901fbf71c2dd83
+Section: Tweaks
+Description: iOS 16 native SneakyCam build for Dopamine rootless and RootHide. SneakyCam 是一款支持息屏状态使用拍照或录像的插件。即使在关闭屏幕的情况下，也能随时随地谨慎地拍照或录制视频。控制中心CC模块可一键启用/关闭。视频或者照片默认保存路径：/var/mobile/Media/Camera。
+Name: SneakyCam 隐私相机
+Author: Spark
+icon: https://huayuarc.github.io/icon/SneakyCam.png
+
 Package: moe.waru.soko
 Architecture: iphoneos-arm64e
 Version: 1.1.0
@@ -1094,17 +1175,17 @@ SileoDepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squi
 
 Package: com.wkk.systembox
 Architecture: iphoneos-arm64e
-Version: 1.5-8end
+Version: 1.4-7
 Maintainer: wkk
-Installed-Size: 2792
+Installed-Size: 1572
+Pre-Depends: rootless-compat (>= 0.9)
 Depends: mobilesubstrate, preferenceloader
-Conflicts: com.wkk.clockglass
-Filename: debs/SystemX_1.5-8end_iphoneos-arm64e.deb
-Size: 590464
-MD5sum: 016bfb79e3a0725e1eb3eb44800e66c0
-SHA1: e927abf621676da5ae2ce9f34d565684e78dd697
-SHA256: c587727b2c40f97d68918e63f6cc5ea5fe43ae019f2f286f58051120bd01953a
-SHA512: 4f54ef82c305c582bacb8cc365f6b64684f41285ae2bc55b4f8c211fbba654f5cc0a32b459853e550cab7997d4f95751b068f798e5335acad43e54b08cb54d4d
+Filename: debs/SystemX_1.4-7_iphoneos-arm64e.deb
+Size: 293216
+MD5sum: 6c2d1b56cebc616db521daf6e3eafa80
+SHA1: 900524d09cbea19257c968c23716794c5e010b75
+SHA256: bfad42d8f11a6df1cf2e7905376638e2395c494639466c0a0825823451d8d6e4
+SHA512: 9200c706b6ee39b82089ce7aefe747e06a2f2178a4e4e0bef26bcbd27b1186074d9f0972ecf372e77004a5cb2576544471ba95623410f8e8f2e715c176ec0610
 Section: Tweaks
 Description: cool
 Name: SystemX
@@ -1262,6 +1343,26 @@ Description: 自研微信增强插件：设置框架、群功能、消息增强�
 Name: HBKit
 Author: HBKit
 
+Package: com.huayuarc.cputhermal
+Architecture: iphoneos-arm64e
+Version: 1.6.2-155+isolation.22
+Maintainer: Huayuarc
+Installed-Size: 1812
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, firmware (>= 15.0)
+Conflicts: cn.zqbb.fix120hz, cn.zqbb.fix120hz15, com.zqbb.fix120hz, com.zqbb.dynamic120hz
+Filename: debs/com.huayuarc.cputhermal_1.6.2-155+isolation.22_iphoneos-arm64e.deb
+Size: 154568
+MD5sum: 06a36d95c2a870440ba6078e3b862ee7
+SHA1: 4745a1255911b608d4c02df721fdd526c9b4cfa0
+SHA256: 935fcaedad03ae027b43cf81ef0ba94693bb2d7b5fdd5aef7a86bdec71089198
+SHA512: d1573022e515d4f6fd56feb181312d9459c42bfc45934cd9cd1b614747426d6ec82bcc51fb189b3b933d485b4e8da6238fc377d413005fb26c50320b94ef6a9c
+Section: Tweaks
+Description: CPUthermal temperature policy, smart charge and dynamic settings with full Hello 120Hz 3.3.3-3 port: preferred 10/30/60/80/120 FPS, global injection, application exclusions, debug HUD and system recording hooks. Requires AltList. Based on isolation.16 SpringBoard stability candidate.
+Name: CPU 解除温控
+Author: Huayuarc
+Icon: https://huayuarc.github.io/icon/cputhermal.png
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+
 Package: com.lessica.camover
 Architecture: iphoneos-arm64e
 Version: 0.0.1
@@ -1312,6 +1413,27 @@ Section: Tweaks
 Description: 通知上岛
 Name: Notify DynamicX
 Author: 半生年华
+
+Package: com.qq391160.cpucore
+Architecture: iphoneos-arm64e
+Version: 2.0.322
+Priority: optional
+Maintainer: qq391160
+Installed-Size: 4608
+Depends: firmware (>= 16.0)
+Conflicts: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Replaces: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Filename: debs/com.qq391160.cpucore_2.0.322_iphoneos-arm64e.deb
+Size: 717392
+MD5sum: a7c8423d41acbd151fed595d6764f8dc
+SHA1: 9ae9dbd2527f712b0d1d297810f0d12f0634f3f4
+SHA256: 92113e5c4068246944a79aca6057509479490513b354693182134d0ea8bfb04e
+SHA512: 71cbb69a0e1f11881dbb56179ed987a6ec2c1a91d2e3974b40e01a688f7f80034a054ec2049ba02fc1ef73f68e56d6c2a0d5b3c126d63071eb7269073c9d3380
+Section: Tweaks
+Description: 三种模式一键切换的智能温控管理。 智能：游戏高性能、应用低频率、桌面原生、滑动提速、熄屏省电； 低功耗：全局省电，可放行个别应用； 性能模式：全局高性能，可单独压低指定应用； 每个应用可单独设置档位。
+Name: CPU智能温控(iOS16/17)
+Author: qq391160
+Icon: https://qq391160.github.io/repo/icons/thermal.png
 
 Package: com.repobvn.carbridge13-roothide
 Architecture: iphoneos-arm64e
@@ -1850,6 +1972,23 @@ Author: xybp888
 Depiction: https://apt.htv123.com/view/1123
 SileoDepiction: https://apt.htv123.com/sileo/1123
 
+Package: com.xx.fqxshook
+Architecture: iphoneos-arm64
+Version: 1.0.2
+Maintainer: x✨
+Installed-Size: 268
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/番茄小说.deb
+Size: 48050
+MD5sum: 638ec517c7c4eb324907ea68442a6c19
+SHA1: aeacb613fff9deaed166a88e919e2a556e3001b4
+SHA256: 1e11bf6bc85c9071a5b186fce1ab83afd96a47e5fb030106f479594b37c14d42
+SHA512: 66436ce4608edbde7a0ad37ded6c8de73d50dd71df5a901713d4c526c76a0c6894a20055d2a0f047f8e8d97ea7886c8c5b0e5ef63aeecd99ba07427c05554842
+Section: Tweaks
+Description: 自用 | 去除一些可见广告 | 秒过激励视频 | 支持版本6.0.8+ | 1.0.1 新增移除底部福利板块 移除底部红点 继续移除一些又出现的新广告 & 1.0.2:修底部BUG
+Name: 番茄小说优化
+Author: x✨
+
 Package: com.ntm.notifymanager
 Architecture: iphoneos-arm64e
 Version: 2.3.50
@@ -1898,7 +2037,7 @@ Architecture: iphoneos-arm
 Version: 1.9.1
 Maintainer: 故
 Depends: mobilesubstrate
-Filename: debs/闲鱼捡漏-已解锁卡密授权验证.deb
+Filename: debs/闲鱼捡漏-1.9.1-unlocked(1).deb
 Size: 153346
 MD5sum: 61c8a1b95aeaf654e7d0c246607c0bff
 SHA1: 61853cc463b5395e9f17991be2bf07a2bbc45b58
@@ -1948,6 +2087,23 @@ Description: Convert supported tweak packages for RootHide custom firmware.
 Name: Umbra Patcher
 Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
 Support: https://github.com/owngoal-dev/RootHidePatcher/issues
+
+Package: com.local.batteryscout
+Architecture: iphoneos-arm64
+Version: 1.1.0
+Maintainer: Local
+Installed-Size: 175
+Depends: firmware (>= 16.0)
+Filename: debs/耗电检测.deb
+Size: 26484
+MD5sum: 61ee6bd22c6d2e71dee495c1fc69273c
+SHA1: 330b7046d0add84286988009732e2c09730cf8b5
+SHA256: ee906a0f2126e60dfa98e4ce3f88710dfe71c3d2a36cd36cd0457226d7269b58
+SHA512: e65d08516c9e138060d6a2cab3eaf1949d32c1d603f20fd48f4e064708d9e75c5fce631ef5b93950beadaae86f54d6d76c11c07799eb55a193ccfb9051dba8d0
+Section: Utilities
+Description: Local app and jailbreak process activity monitor with tweak candidate host diagnostics. Host activity is not per-tweak measured energy.
+Name: 后台耗电侦测 BatteryScout
+Author: Local
 
 Package: cn.llld.snapshottool
 Architecture: iphoneos-arm64e
@@ -2024,6 +2180,25 @@ Description: AppTools for iOS15~17，强大的App类辅助插件，可以清理�
 Name: AppTools15-17(RootHide)
 Author: aReo
 Sileodepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/apptools/js.json
+
+Package: com.dao.ccless
+Architecture: iphoneos-arm64e
+Version: 2.1.0.1
+Maintainer: 妖刀
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Conflicts: com.skypain.cclocation, com.skypain.ccsettrings, com.skypain.ccrespring, com.sop.cpumagicrootless, netskao.ccbadgeclear-rootless, com.mtac.uptime, netskao.alipayscan-rootless, netskao.wechatscan-rootless, com.skypain.ccvpn, netskao.ccswitchdata-rootless, netskao.ccsim-rootless, netskao.tinyccmodules-rootless, netskao.cccellularrate-rootless, netskao.quantumultxlauncher-rootless, com.p2kdev.snapper2cc, com.skypain.ccautobrightness, com.skypain.ccscreenshot, com.skypain.cclockscreen, xyz.cypwn.safeccmodules, com.zqbb.ccpay, com.zqbb.qszqb, com.netskao.ccbadgeclear, com.kingpuffdaddi.control-center.ccvpn, com.netskao.cclifttowake, com.kdt.caperfhudmodule, com.kingpuffdaddi.control-center.ccvibration, com.hk.roothide.cc, com.hk.rootless.cc
+Filename: debs/CCLess++(RootHide)_2.1.0.1_iphoneos-arm64e.deb
+Size: 498600
+MD5sum: e6633fd6efc69c737c02d6737b396d5b
+SHA1: 112fa482949946deb6add5094d6ed6d0fa81ce27
+SHA256: e61512abc8008fceec4fa37322445631502a0d8a9812703abc94f0f40581a381
+SHA512: 3ad10206a200d617bd20b6a1e28ce5bf4b82fe04d5fe4c72bc39a256535986664f93a8b111ab17f2cb433a12c890318307297d03c1ca76995f273485a54cce0e
+Section: 嗨-工具
+Description: 超级控制中心模块集合！
+Name: CCLess++(RootHide)
+Author: 妖刀
+SileoDepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/ccless/js.json
 
 Package: com.dao.immortalizer
 Architecture: iphoneos-arm64e
@@ -2179,6 +2354,63 @@ Section: 辅助工具
 Description: 仅为白名单 Wi-Fi 防休眠,锁屏8小时耗电4%左右,(本插件实际为解决 连安卓热点苹果锁屏会断开 wifi的痛点) QQ群 205928931
 Name: wifi 锁屏不断连 roothide
 Author: colorblack
+
+Package: com.wkk.wechatx
+Architecture: iphoneos-arm64
+Version: 2.4-3
+Maintainer: wkk
+Installed-Size: 9604
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/WeChatX_2.4-3_全定制解锁.deb
+Size: 3763264
+MD5sum: 565492cc65c00486b7504e8c35961385
+SHA1: 7ed39ffd1bc7b057e78130d91d698770040f0fdb
+SHA256: d218eac5027ed2b74f4c89c536e3c7017416c850942a830151b8e9ac041be21d
+SHA512: 533eb1dde873f447b4551ed245b9443538b31bf8efcebdfe7c108a31b924faf2a6fe58e3c8c8b6125d9c8f0154fd83858848edb64a4961bae9b005078b665933
+Section: 插件
+Description: 一个新生代的插件，主打自由定义与实用为主，更多功能由群友集思广益，功能180+，自定义程度拉满的WeChat 插件，实用功能直接拉满占比百分之95，任何功能都可以提/定制皆可，单独授权50，进付费群依然可用。如果你想实现自己想要的功能，有更好的想法，欢迎来我的付费群玩。wx号：chn137
+Name: WeChatX
+Author: wkk
+Icon: https://s1.imagehub.cc/images/2025/01/01/95a2f7dd7e6f2a540e2f53f95ae214d4.png
+
+Package: com.cydiabc.removewidgetbg-rootless
+Architecture: iphoneos-arm64
+Version: 2.1
+Maintainer: Lessica
+Installed-Size: 404
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.altlist
+Filename: debs/com.cydiabc.removewidgetbg-rootless_2.1_iphoneos-arm64.deb
+Size: 46514
+MD5sum: 79398c8b9c397174c7a0fbd84317a220
+SHA1: 9631860ba85c89435b74b87095e7468a937115d3
+SHA256: 3cc7bc466f3285efb09539f2480e870334c0a291dccbb19a9c5266a0708e956e
+SHA512: d73e166d7abbbe2872a863e307bd74dcf3c6de8c95df459a5e5b90a583d302db994ccdb83fb682bfcf3cab54030231051b4ccf25d4883aafb36a3d40e5e693cd
+Section: 插件
+Description: 移除小组件背景，让桌面更干净，已适配系统自带小组件和 Top Widgets小组件
+
+Package: com.axs.ios16dao
+Architecture: iphoneos-arm64
+Version: 5.2.0-244
+Maintainer: Axs
+Installed-Size: 704
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist
+Filename: debs/ios16-17动态岛.deb
+Size: 87668
+MD5sum: ba6f5f44cccec52158526634ab14cf65
+SHA1: 589a5038d6dcd02a4e5b446c2fe347ad43257791
+SHA256: c85e0fbc9325049bc1d1e2125a1ad44961cb8cf5322196a0bc6329b84506a1d3
+SHA512: 792f3bb80d2a59cf3d66aa35d3a3838703966226b25b95b5eeb453db41836140df37b8b1520fafd47a9943153ce7c9958efc5b786b4ed0f74524a7ca5efb4c9a
+Section: 插件
+Description: 一款市面上最优秀、功能最完整、最稳定的灵动岛插件。集成授权校验联系:VCR66T
+ * 1. 动态岛自定义背景，支持 PNG/JPG/GIF/MP4。
+ * 2. 录屏的时候，可以隐藏原生岛黑色区域，让效果更美观。
+ * 3. 内置纯代码灵动光圈（如彩虹环、彩虹流星、舞台灯、跑马灯、纯色线框）、漂亮的七彩随机光圈阴影等特效。
+ * 4. 灵动岛左右两侧自定义png图片帧率动画（如写轮眼、跳舞等玩法）。
+ * 5. 本插件无需任何依赖、支持手势录屏触发，已经达到极致水平。
+Name: ios16~17动态岛
+Author: Axs
+Icon: https://axs66.github.io/pro/icon/dynamicnotland.png
+SileoDepiction: https://axs66.github.io/pro/sileodepiction/ios16dao/js.json
 
 Package: im.mjh.fakeperm.roothide
 Architecture: iphoneos-arm64e
