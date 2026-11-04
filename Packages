@@ -603,6 +603,23 @@ Author: CoolStar and contributors
 Icon: https://apt.002599.xyz/web/icon/org.coolstar.libhooker.png
 SileoDepiction: https://apt.002599.xyz/web/org.coolstar.libhooker
 
+Package: com.opa334.libundirect
+Architecture: iphoneos-arm64e
+Version: 1.1.6
+Section: System
+Maintainer: opa334
+Installed-Size: 168
+Filename: debs/libundirect_1.1.6_iphoneos-arm64e.deb
+Size: 6632
+MD5sum: 0a03838b23910d98b77f51670f5b757f
+SHA1: 531123570f7d70aa2f9c56aa8eee92907cbff40e
+SHA256: acad92ace58d1882724f6f25afec4839075ce9aedde7da56da842edb1630403b
+SHA512: f8c74639cdac23fd9a0f85610a72e6199657b7ccf90cdc8ec3524cb2c1a73642ff9e1dd8813ad5e55f11727a8786bfac12c594e1a6e9b8a8ed69012fd52f8ea6
+Description: Patchfinder and rebinder for objc_direct methods
+Tag: role::developer
+Name: libundirect
+Author: opa334
+
 Package: com.yourepo.ok95.4
 Architecture: iphoneos-arm64e
 Version: 7.0.5
