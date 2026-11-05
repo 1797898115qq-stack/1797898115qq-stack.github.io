@@ -2008,17 +2008,17 @@ Name: SafariModernizer
 Author: T4MAG0
 
 Package: com.zengniu.splitview
-Architecture: iphoneos-arm64
-Version: 0.7.66
+Architecture: iphoneos-arm64e
+Version: 0.7.47
 Maintainer: ZengNiu
-Installed-Size: 1554
+Installed-Size: 758
 Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
-Filename: debs/com.zengniu.splitview_0.7.66_iphoneos-arm64.deb
-Size: 460784
-MD5sum: 7ea55704eda85e2742a822478a39450e
-SHA1: b4903888f9b39f92288356816ae7455f8d6e4844
-SHA256: a29f7d1063fb8509e1a62e458ae8cd0c13d31f3f33530782a7f624026dda7221
-SHA512: 0738590a84dbf9b73aa3ebdb7f828edfe259d3aa92bc120e9bbaf985e8e977bf46fef6d0de0164926156cb4b1c55ab5e8fde30b1ec6a11a0c8467bfe9775cc6f
+Filename: debs/com.zengniu.splitview_0.7.47_iphoneos-arm64e.deb
+Size: 271814
+MD5sum: dd0c2e5f2fca72909d9f9c3d60396f3e
+SHA1: 0f500007a99c9c396077e84a34a6449f51cf74ce
+SHA256: a5c0deb110fa93f9879db0141558870b5b2c3a7bf802b03d57d9e1f3736d9d78
+SHA512: bdecf32c643fd47ddd00c31423146dd5d77e91f9419ccfda4cd228e4ef73a10ffcfb60195b794244c407f68112eb5981f4a800473143127ccda0f5181fa87186
 Section: Tweaks
 Description: Experimental live app windows with Home Screen icon gestures and basic docking.
 Name: 曾牛-分屏🐮
