@@ -2637,6 +2637,45 @@ Author: Axs <qiaozhani000@163.com>
 Icon: https://axs66.github.io/pro/icon/zzfilter.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/zzfilter/js.json
 
+Package: byg.iosios.net.autofillfix
+Architecture: iphoneos-arm64e
+Version: 0.1
+Maintainer: 搬运工
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate
+Filename: debs/byg.iosios.net.autofillfix_0.1_iphoneos-arm64e.deb
+Size: 4300
+MD5sum: 85ef05c586648042a7e0d74dabd1ffa6
+SHA1: be497b8d395cb7e7ad6f3e58611b5119bec96aed
+SHA256: 38d8653521c912e1fd6932139c3556768a2918b2696fe3ffdc27688d0e27d267
+SHA512: cc36941b9fcc48122972782f7f312d2714810f14de9626c11160e0e585774a3ec8659682c5ee66a00f6221f8206a697cfe155b141c9d4e8ac8cea6f5a05ea3c4
+Section: 插件
+Description: Fix for autofill not working after restarting backboard or sbreload修复越狱后，某些软件，短信验证码不自动填充问题，应该是有作用的，有需要的用户可以尝试一下，无效请缷载！
+Name: Auto短信验证码自动填充-Rootless
+Author: P2KDev
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: com.axs.appselect
+Architecture: iphoneos-arm64e
+Version: 5.2.0-12
+Maintainer: Axs
+Installed-Size: 456
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.axs.appselect_5.2.0-12_iphoneos-arm64e.deb
+Size: 45364
+MD5sum: 2f82cd10d6207637ac62e7a530c49d27
+SHA1: 14f3675886a4ae71210e39fa64b24950a6ed12c9
+SHA256: 886a391d245448d317f6fadb98c3aba5576eddc3e515d8b5513e65a60c8f0ee4
+SHA512: fcaac9daa16bdbdcdbde218ef943acca240f8e4d28de1fadb5c75e99df6afa57c5d386bebe7bcf4869559d8afb9cfe6f3ae42fe7f4ea0ebc9f03f3358b27a8ef
+Section: 插件
+Description: App跳转拦截重定向选择器
+Name: AppSelect
+Author: Axs
+Icon: https://axs66.github.io/pro/icon/appselect.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/appselect/js.json
+
 Package: com.cydiabc.removewidgetbg-rootless
 Architecture: iphoneos-arm64
 Version: 2.1

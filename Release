@@ -9,8 +9,8 @@ Description: 玩机源
 Support: https://1797898115qq-stack.github.io/
 Icon: https://1797898115qq-stack.github.io/CydiaIcon.png
 MD5Sum:
- 3e86ef2d4712f976c2f9a42fac30bf87  169606 Packages
- f03e50c595f3c36f325810e0301445a5  70883 Packages.gz
+ d8dbdbb647f15fea156e1b6641f1f730  171312 Packages
+ 6741084eb095dae5f592c90e14bdeccf  71567 Packages.gz
 SHA256:
- 5b57ad5ec740ccc444b26d7b7bda67092224e97bbf307e64ca68be114c2a590b  169606 Packages
- a7535312e3b4f57466c9a98f77c149db91a17b428de542748debe1703892e230  70883 Packages.gz
+ 7b4fe281a49fa4b653ee2e3391d6285e08fb89407dd62c3ccd412d46a273cc30  171312 Packages
+ bf23ac97af5e8e289028c73b9be31b30d8957f18f3c0aadfc1a9788ce3da273f  71567 Packages.gz
