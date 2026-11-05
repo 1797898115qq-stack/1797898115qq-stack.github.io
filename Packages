@@ -1478,6 +1478,25 @@ Description: 隐藏系统相机上下方的半透明黑色蒙层。
 Name: CamOver
 Author: Lessica
 
+Package: com.mlgm.actra
+Architecture: iphoneos-arm64
+Version: 1.3.4
+Maintainer: mlgm
+Installed-Size: 4112
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, launchctl
+Conflicts: com.example.actra-plugin
+Filename: debs/com.mlgm.actra_1.3.4_iphoneos-arm64.deb
+Size: 815832
+MD5sum: dddd9ad1b561b2454077df65e1b3a2cc
+SHA1: b2bcac8da51897d7da87c46b8cef37b95917a780
+SHA256: 168f44be83048b29eeda44eefb3c9a4b59593950aebb36e4f084caff59391aa0
+SHA512: b96a823dda6a448c7b65824a41a7e79122723a9d4db4c2cfade827a672b4bfaefaa4e544c7d21dab194a73acca05d587f60340e3bedc4ad17e96b1520b92ac67
+Section: Tweaks
+Description: 手势与事件自动化工具
+Name: Actra
+Icon: https://mlgm66.github.io/icon/actra.png
+Author: mlgm
+
 Package: com.mowang.neicunyouhua
 Architecture: iphoneos-arm64
 Version: 0.1.6
