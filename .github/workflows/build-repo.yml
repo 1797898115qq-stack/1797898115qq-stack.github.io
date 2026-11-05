@@ -50,3 +50,21 @@ bzip2 -kf Packages        # 生成 Packages.bz2
 git add -A
 git commit -m "add 新插件"
 git push
+name: Build Repo
+on:
+  push:
+    branches: [main]
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: |
+          touch .nojekyll
+          dpkg-scanpackages -m debs > Packages
+          bzip2 -kf Packages
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: auto update repo
