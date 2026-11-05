@@ -43,3 +43,10 @@ jobs:
           git checkout -B main
           git add -A
           if git diff --cached --quiet; then echo "索引无变化，跳过"; else git commit -m "chore: rebuild repo index" && git push -f origin main; fi
+          # 在仓库根目录执行
+dpkg-scanpackages -m debs > Packages
+bzip2 -kf Packages        # 生成 Packages.bz2
+
+git add -A
+git commit -m "add 新插件"
+git push
