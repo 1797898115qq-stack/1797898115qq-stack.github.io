@@ -1445,6 +1445,23 @@ Name: aemulo自动模拟 - rootless
 Author: zqbb
 SileoDepiction: https://rootless.002599.xyz/web/zp.aemuloauto.rootless
 
+Package: cn.llld.qsyy
+Architecture: iphoneos-arm64e
+Version: 3.6
+Maintainer: 来了老弟
+Installed-Size: 8244
+Depends: mobilesubstrate
+Filename: debs/cn.llld.qsyy_3.6_iphoneos-arm64e.deb
+Size: 5646586
+MD5sum: b177154afe43f5ae092f3e9c68079128
+SHA1: 78c10086da725a5d5b6eeea22bfe0a0352e37e4a
+SHA256: 528c94e6e48b8fb19e86add006eccd996cfc14e361346ac3f9b284675adc72de
+SHA512: e4f907dc646d912820f5a5b20f272288aa41172112ed93e1e261d0aeeea5b9f56d07cbc82c3714ddf067f5d58f9e506f44792a0cc2cf3b1afb072e8e47e4502b
+Section: Tweaks
+Description: 悬浮窗批量替换改文字与翻译工具等
+Name: FT悬浮文本增强替换翻译汉化
+Author: 来了老弟
+
 Package: cn.octoforce.copyvault
 Architecture: iphoneos-arm64e
 Version: 1.9.0
@@ -2431,6 +2448,24 @@ Section: 嗨-工具
 Description: 可将应用置于前台，达到「真后台」效果；应用图标长按菜单——开启/禁用「真后台」；CC模块控制，需先打开要控制的app，然后点击模块；根据开源重新编译。
 Name: Immortalizer(RootHide)
 Author: sergy
+
+Package: com.dao.filzacrack
+Architecture: iphoneos-arm64e
+Version: 1.1-9
+Maintainer: Nets
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate
+Conflicts: com.netskao.filzacrack, netskao.filzacrack-rootless
+Filename: debs/com.dao.filzacrack_1.1-9_iphoneos-arm64e.deb
+Size: 28900
+MD5sum: 6afc512709f15f3e7bf49bbf3b01a2b2
+SHA1: 8143aa905e061fb914d95bde9c45477e16630a23
+SHA256: 062d468bd29cbf80fd543ba9064173464d8dc6f4bc936e774805ece0d486e6d2
+SHA512: 7bcf9fce7c510d6753afc6bda5ade6cb7845168fe9f6d152ca31f50b0e37f4ca20ec6978bdbc1eef344c342cd2d8619c7fcbcca0e3f9fdee0eda9c68610a378d
+Section: 嗨-工具
+Description: Filza解锁全部功能，请在官方源安装Filza。Netskao新更的版本，上架备份；转换支持 roothide。
+Name: Filza Crack(RootHide)
+Author: Netskao
 
 Package: com.dao.sileo
 Architecture: iphoneos-arm64e
