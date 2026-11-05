@@ -2656,6 +2656,27 @@ Author: P2KDev
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.ccborder.new
+Architecture: iphoneos-arm64e
+Version: 1.1.2-39
+Maintainer: 搬运工
+Installed-Size: 1004
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate, firmware (>= 16.0)
+Conflicts: com.fiore.ccborder, alias20.coolcc, com.dao.coolcc, com.hk.coolcc, com.4nni3.coolcc
+Filename: debs/byg.iosios.net.ccborder.new_1.1.2-39_iphoneos-arm64e.deb
+Size: 206420
+MD5sum: 146f142ff4a5f6f5420b9c52ba5108f0
+SHA1: c5b8800d0083217aa3f5d5349d96a16a147fcf87
+SHA256: 35c537420d249d8b1b94edcecf63a13b5254f749d8dbf88445aaa3cb0fdebd60
+SHA512: e5711f91d6aa6f748f1535009cc3f40bea2f901f282aeea8e0085a962d9d01e69e4ba6758ccfd9c1a32166c6f7a529dd831ead2892de190e1df37c1be2a63f7c
+Section: 插件
+Description: 不支持iOS15！iOS15用源里另一款！也叫这个名字！类似iOS18样式的控制中心，可调节控制中心模块形状，模块边框粗细，音量/亮度图形颜色等；SINI基于p2kdev的开源定制！搬运工源加上美化插件！满足用户需求！
+Name: CCBorder控制中心美化
+Author: Fiore & p2kdev & SINI
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: com.cydiabc.removewidgetbg-rootless
 Architecture: iphoneos-arm64
 Version: 2.1
