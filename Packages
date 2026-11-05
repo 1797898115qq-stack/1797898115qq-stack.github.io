@@ -2752,6 +2752,69 @@ Author: CydiaGeek
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.onesettings
+Architecture: iphoneos-arm64e
+Version: 2.2.1
+Maintainer: 搬运工
+Installed-Size: 1084
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: firmware (>= 14.0), mobilesubstrate (>= 0.9.5000), com.mrgcgamer.libgcuniversal, preferenceloader
+Conflicts: com.shepgoba.settingswidgets, com.creaturecoding.shuffle
+Filename: debs/byg.iosios.net.onesettings_2.2.1_iphoneos-arm64e.deb
+Size: 225112
+MD5sum: 2ad510d214b7b50b405819d86f9ab5be
+SHA1: 7c3e7f3ec19cc2480cc12690fe27cd1e4ea6dbed
+SHA256: 5763f4796a2deb30fdb7abcfd2d508369ee5e95fb2ae3e22277f4022030c782b
+SHA512: 400d15e8c7eadfb38d7f59bf0224dae74a37b8da562c974f37e3216a201964f64ae5ff42390ad2e8de6769da3d377572cb14224eae784dbf4b921949ef7639ca
+Section: 插件
+Description: OneSettings为设置应用程序带来了全面的个性化界面定制功能，用户可以通过自定义颜色、背景图片和单元格尺寸等来实现独特的设置界面。对于许多iPhone用户而言，设置应用程序是日常使用中不可或缺的一部分，无论是用于调整网络设置、启用/禁用特定功能，还是仅查看设备硬件和软件信息。对于越狱用户来说，设置应用程序更是访问众多插件自定义选项的必经之路。然而，长期以来，设置应用程序的界面设计并未有显著改变，依旧保持着原有的简洁风格。OneSettings，这款由iOS开发人员Nightwind最新推出的越狱插件，旨在为用户提供更加多样化的设置应用程序体验。
+Name: OneSettings系统设置美化
+Author: Nightwind
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.recordpause
+Architecture: iphoneos-arm64e
+Version: 2.0.6
+Maintainer: 搬运工
+Installed-Size: 200
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate, firmware (>= 11.0), firmware (<< 18.0)
+Conflicts: org.thebigboss.recordpause, com.spicat.recordpause
+Filename: debs/byg.iosios.net.recordpause_2.0.6_iphoneos-arm64e.deb
+Size: 13172
+MD5sum: ffa6f6c4be94bd73766949ff6495acc8
+SHA1: 810688aa69cc2bb05d94bd10351f5a699dc6a639
+SHA256: 1f456883191f21ad7528f398bf8be26a7c49ab1bfada0edcfb962843ea61779a
+SHA512: 0da8b42a1bfca5d318a1fd1d6781ed7c6f15a0f6c9228be470f5cb07d3852efaf86123f985aa497b97bb7f042bc97562aa700a6c44d3b7ff37144e4c86498fd5
+Section: 插件
+Description: Pause/resume video recording.模仿iOS18功能，在开启相机录视频的时候左下角增加一个暂停键，非常的好用，从此以后录视频也可以暂停啦，搬运工源会一直给大家带来好用的插件，也支持插件开发者将自己的插件上架搬运工源！
+Name: RecordPause录像暂停-Rootless
+Author: PoomSmart
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.sleeperx
+Architecture: iphoneos-arm64e
+Version: 3.0.5
+Maintainer: 搬运工
+Installed-Size: 1836
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), firmware (<< 17.0)
+Conflicts: org.thebigboss.sleeper, com.joshuaseltzer.sleeper
+Filename: debs/byg.iosios.net.sleeperx_3.0.5_iphoneos-arm64e.deb
+Size: 184980
+MD5sum: 0d72dcf097407cecf23a3a2660c7c027
+SHA1: 5ee8c3fe4a4f32cc499679b5d65c93a5841f6296
+SHA256: 923de61270718bc7e5540f54648f1f02889997f09300f811ae4fbaf088891580
+SHA512: d9c4c536a5444210a8411fb46172486bcd50e7dea68c675f884005bd2b3975e78041ae340a2eadc69f8f96b335d011b3cbe689e9163b4417cbfa3bfbb6048990
+Section: 插件
+Description: Set custom snooze times, skip alarms, and more with SleeperX.闹钟优化调整，原价0.99刀，现免费使用！只有搬运工源有此插件！已汉化！插件功能还不错！
+Name: SleeperX闹钟优化-Rootless
+Author: Joshua Seltzer
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: com.axs.ipslog
 Architecture: iphoneos-arm64e
 Version: 5.2.0-30
@@ -2773,6 +2836,28 @@ Name: IPSLog
 Author: Axs <qiaozhani000@163.com>
 Icon: https://axs66.github.io/pro/icon/ips.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/ipslog/js.json
+
+Package: com.cydiabc.fontmanager-roothide
+Architecture: iphoneos-arm64e
+Version: 0.3.8
+Maintainer: Hmmzzz
+Installed-Size: 2512
+Depends: firmware (>= 16.0), uikittools
+Conflicts: com.nan.bindfs, cn.zqbb.hello.mnt, com.hmmzzz.fontmanager
+Filename: debs/com.cydiabc.fontmanager-roothide_0.3.8_iphoneos-arm64e.deb
+Size: 494992
+MD5sum: 25282243750a3839b62de907ce886efe
+SHA1: a9b15d99502a6cd56f7a6ec1d013fc2a5777b94a
+SHA256: e3d450c0e607e0fe04d822b1d8de912cb3915b459a29d2a2dacf531931ad1bd9
+SHA512: d87dec7ae0f5d6286a36d43c6196001351ba75d75a379bf6d59c3312d64377ec4339a6dc66eb807dfbfbd139a03098b6e09ffdc82a8394b338abd96e2f0c09c1
+Section: 插件
+Description: iOS 16+ 全局字体管理器，支持导入 ZIP、TTF、TTC 和 OTF 字体，MarkFont 使用只读字体镜像，不直接修改系统字体文件，并支持重新越狱后自动恢复已启用的字体，创建并切换多套字体方案，可以随时恢复系统默认字体。
+A12: 1
+Name: MarkFont字体管理器-Roothide
+Author: Hmmzzz
+Sponsor: Ai-小苹果™
+Icon: file:///Applications/Cydia.app/Sections/System.png
+Icon2: 17.png
 
 Package: com.cydiabc.removewidgetbg-rootless
 Architecture: iphoneos-arm64
