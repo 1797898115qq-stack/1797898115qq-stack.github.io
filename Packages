@@ -2656,26 +2656,6 @@ Author: P2KDev
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
-Package: com.axs.appselect
-Architecture: iphoneos-arm64e
-Version: 5.2.0-12
-Maintainer: Axs
-Installed-Size: 456
-Pre-Depends: rootless-compat (>= 0.9)
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/com.axs.appselect_5.2.0-12_iphoneos-arm64e.deb
-Size: 45364
-MD5sum: 2f82cd10d6207637ac62e7a530c49d27
-SHA1: 14f3675886a4ae71210e39fa64b24950a6ed12c9
-SHA256: 886a391d245448d317f6fadb98c3aba5576eddc3e515d8b5513e65a60c8f0ee4
-SHA512: fcaac9daa16bdbdcdbde218ef943acca240f8e4d28de1fadb5c75e99df6afa57c5d386bebe7bcf4869559d8afb9cfe6f3ae42fe7f4ea0ebc9f03f3358b27a8ef
-Section: 插件
-Description: App跳转拦截重定向选择器
-Name: AppSelect
-Author: Axs
-Icon: https://axs66.github.io/pro/icon/appselect.png
-Sileodepiction: https://axs66.github.io/pro/sileodepiction/appselect/js.json
-
 Package: com.cydiabc.removewidgetbg-rootless
 Architecture: iphoneos-arm64
 Version: 2.1
