@@ -1516,6 +1516,45 @@ Name: Clone
 Icon: https://mlgm66.github.io/icon/clone.png
 Author: mlgm
 
+Package: com.mlgm.kayoko
+Architecture: iphoneos-arm64
+Version: 5.1.1
+Maintainer: mlgm
+Installed-Size: 3896
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Filename: debs/com.mlgm.kayoko_5.1.1_iphoneos-arm64.deb
+Size: 824746
+MD5sum: b717bb54b1aeee61ab1324a3dc17a155
+SHA1: eb4c90be3d10d32e7c5b0b2b77d913c4282df47a
+SHA256: e8f4dcee4828862f95fbf72d6a680c01a2b44eee0fe06207f895a7f43eb06d64
+SHA512: 19d5ce54fae9be4f54945ae51a30b9a4e75f55e8c79ff3bd5526b2f8789d31d931be195910dd1c18ba963b1ebb3e12c8ddd56f1977575cb67db33c20a1131913
+Section: Tweaks
+Description: 功能丰富的剪切板管理器，基于 Kayoko (乌龙版本) 进行修改
+Name: Kayoko
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/kayoko.png
+SileoDepiction: https://mlgm66.github.io/depictions/com.mlgm.kayoko/depiction.json
+
+Package: com.mlgm.prefnest
+Architecture: iphoneos-arm64
+Version: 1.2.3
+Maintainer: mlgm
+Installed-Size: 888
+Depends: mobilesubstrate, firmware (>= 15.0), preferenceloader
+Filename: debs/com.mlgm.prefnest_1.2.3_iphoneos-arm64.deb
+Size: 173566
+MD5sum: 5422aa416b3300203e00a22b8cf78bfc
+SHA1: 5b8b24e67d38aaff361812c61f686287cb5bacaa
+SHA256: f0f768d3957d5db9ce9a7efbe15d7c5dde88e922124f3223eea7025e902ec91c
+SHA512: f0d98a1db20974d49ee5a079498810a8b9f79bcedabbe15f43f35ba503684e53e28ebb3818bc28671423af13be0d5907e778187182c892944fa02dc60ab5cd69
+Section: Tweaks
+Description: 整理设置首页，集中收纳越狱插件。
+Name: PrefNest
+Icon: https://mlgm66.github.io/icon/prefnest.png
+Author: mlgm
+
 Package: com.mowang.neicunyouhua
 Architecture: iphoneos-arm64
 Version: 0.1.6
