@@ -927,6 +927,29 @@ Description: Repairs Filza bookmarks and recents that break when roothide's jbro
 Name: FilzaBookmarkFix
 Author: guacforlife
 
+Package: cn.zqbb.fix120hz
+Architecture: iphoneos-arm64e
+Version: 3.3.3-6
+Maintainer: zqbb
+Installed-Size: 6284
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), preferenceloader, com.opa334.altlist
+Conflicts: cn.zqbb.fix120hz15, com.zqbb.fix120hz, com.zqbb.dynamic120hz
+Filename: debs/Hello_120Hz_3.3.3-6_iphoneos-arm64e.deb
+Size: 1827932
+MD5sum: 41c6605ce238c14cfa6dea31c30a22be
+SHA1: 46878dfbe97190bdc1a86b7d1bbb2183c886e616
+SHA256: 96d406db06c2a32fe5423b5a67c6429d7501afe2a0699791d66fd8a47e11c42f
+SHA512: 2e6fa5cac6e9ce117f6f6c8ae524330c88167bd15d46f0884dce1b291ff8fe94169426c35c883a52fd9d21e6f84971413bbcb71076b75e6ab22ced8dec515142
+Section: Tweaks
+Description: 
+ - Unlock dynamic refresh rate from 80hz to 120hz
+ - .
+ - 解锁动态刷新率80hz到120hz.
+Name: Hello 120Hz
+Author: zqbb
+Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.fix120hz
+SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.fix120hz
+
 Package: com.tsangbaby.kayoko
 Architecture: iphoneos-arm64e
 Version: 5.0
@@ -1548,6 +1571,22 @@ Section: Tweaks
 Description: 隐藏系统相机上下方的半透明黑色蒙层。
 Name: CamOver
 Author: Lessica
+
+Package: com.local.sileodebdownloader
+Architecture: iphoneos-arm64e
+Version: 1.3.0
+Maintainer: Local
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/com.local.sileodebdownloader_1.3.0_iphoneos-arm64e.deb
+Size: 59298
+MD5sum: 0bac41121d37d373198b1fe6d07655b8
+SHA1: cfcfbe9ee45fb1a1c7a3ab3f036f2f9d6eb4ab94
+SHA256: 86950020a72d5b89bddea7457fe691aeead806628a47d9f912c13e6a2c49262d
+SHA512: 829bf22d4c3814f7df7b6ae2ac8ad3cdc90f819823d8a1f321c5f077c6fe32670472b5a6f3abcfa8486aa378a2a619e16a4795b720500097441960cc18556c0c
+Section: Tweaks
+Description: Download and export repository DEB files directly from Sileo.
+Name: Sileo DEB Downloader
+Author: Local
 
 Package: com.mlgm.actra
 Architecture: iphoneos-arm64
@@ -2448,29 +2487,6 @@ Description: 别在后台热加载app咯!
 Author: zqbb
 Name: Hello 3Q
 SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.stopautolaunchapps
-
-Package: cn.zqbb.fix120hz
-Architecture: iphoneos-arm64e
-Version: 3.3.3-6
-Maintainer: zqbb
-Installed-Size: 6284
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), preferenceloader, com.opa334.altlist
-Conflicts: cn.zqbb.fix120hz15, com.zqbb.fix120hz, com.zqbb.dynamic120hz
-Filename: debs/Hello_120Hz_3.3.3-6_iphoneos-arm64e.deb
-Size: 1827932
-MD5sum: 41c6605ce238c14cfa6dea31c30a22be
-SHA1: 46878dfbe97190bdc1a86b7d1bbb2183c886e616
-SHA256: 96d406db06c2a32fe5423b5a67c6429d7501afe2a0699791d66fd8a47e11c42f
-SHA512: 2e6fa5cac6e9ce117f6f6c8ae524330c88167bd15d46f0884dce1b291ff8fe94169426c35c883a52fd9d21e6f84971413bbcb71076b75e6ab22ced8dec515142
-Section: zqbb Tweaks
-Description: 
- - Unlock dynamic refresh rate from 80hz to 120hz
- - .
- - 解锁动态刷新率80hz到120hz.
-Name: Hello 120Hz
-Author: zqbb
-Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.fix120hz
-SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.fix120hz
 
 Package: cn.zqbb.hello.bundleid
 Architecture: iphoneos-arm64e
