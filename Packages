@@ -1445,6 +1445,25 @@ Name: aemulo自动模拟 - rootless
 Author: zqbb
 SileoDepiction: https://rootless.002599.xyz/web/zp.aemuloauto.rootless
 
+Package: cn.octoforce.copyvault
+Architecture: iphoneos-arm64e
+Version: 1.9.0
+Maintainer: SquidForce, Backup
+Installed-Size: 6380
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: com.squidforce.copyvault
+Filename: debs/cn.octoforce.copyvault_1.9.0_iphoneos-arm64e.deb
+Size: 1707504
+MD5sum: 0011d94a565e6852844745e63ae68bf3
+SHA1: f17c2ca777f5d93bb0e7a608c15bc4537eae61af
+SHA256: 57eb105fad9233cfdcebda3d5d8e01674aa2545d71054e8ae6c6284e0b0cda08
+SHA512: 6cc6259bd1321182a0a66e6ba99848c16e90b9d080de8b2915f1e18ac7eaab584546af3244de5a832bf8cf3494ca8c715626df05a99d74733d0b42f39c9b87e9
+Section: Tweaks
+Description: 激活码用户或需要激活码的用户安装这个，非激活码用户不要安装！！Do not install if you do not have an activation code!!! Your Copy Vault, Your Pasteboard
+Name: CopyVault(激活码版)
+Author: SquidForce, Backup
+SileoDepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.copyvault/depiction.json
+
 Package: com.hbkit.wechat
 Architecture: iphoneos-arm64
 Version: 0.1.0-85
@@ -2674,6 +2693,27 @@ Section: 插件
 Description: 不支持iOS15！iOS15用源里另一款！也叫这个名字！类似iOS18样式的控制中心，可调节控制中心模块形状，模块边框粗细，音量/亮度图形颜色等；SINI基于p2kdev的开源定制！搬运工源加上美化插件！满足用户需求！
 Name: CCBorder控制中心美化
 Author: Fiore & p2kdev & SINI
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.denyphotoalbumsllld.rootless
+Architecture: iphoneos-arm64e
+Version: 1.2.1
+Priority: optional
+Maintainer: 搬运工
+Installed-Size: 709
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate, firmware (>= 10.0), preferenceloader
+Filename: debs/byg.iosios.net.denyphotoalbumsllld.rootless_1.2.1_iphoneos-arm64e.deb
+Size: 74968
+MD5sum: 8c9ee416710f02ddf3c3a9761a294e6d
+SHA1: c374242afdd3f3e5bed68369ded49ef9e4409526
+SHA256: b9aa5e79f1371c368a002562fa3aa9a4f2692e97a287ffe1db021e4bedd592e2
+SHA512: 248bfba2773e4c9618d91bda1aefc11b542068a1fba3a69c7c95f80c94053615ef96b2ec2fc216a00c9dbcc4c2b22773aa8f88b62caf7d1229b72a53f88c2798
+Section: 插件
+Description: 系统照片增强，隐藏多个自定义选项，感谢巨魔商店M哥汉化分享！感谢有你，温暖春风！比官方高0.01个版本是因为之前已经上架修复版，这次是跟着官方更新汉化！
+Name: DenyPhotoAlbums相册增强-Rootless
+Author: CydiaGeek
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
