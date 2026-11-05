@@ -1408,6 +1408,23 @@ Icon: file:///Library/PreferenceBundles/volumemixer.bundle/icon@2x.png
 Depiction: http://brendonjkding.github.io/depictions/web/?p=com.brend0n.volumemixer
 SileoDepiction: http://brendonjkding.github.io/depictions/web/com.brend0n.volumemixer/depiction.json
 
+Package: com.wechat.liquidglass
+Architecture: iphoneos-arm64e
+Version: 3.8.0-4
+Maintainer: WeChatLiquidGlass
+Installed-Size: 90756
+Depends: mobilesubstrate
+Filename: debs/WCGlass_3.8.0-4_vip_unlocked.deb
+Size: 30425268
+MD5sum: 8e6309187af6f05d655926f1f9ea0076
+SHA1: 0a8755c75dd6c59bc5ca09614cc4be5755aa4fc0
+SHA256: 0b070930cf7b10ca6d0c07b3ffaef8f22e189a29c235829f848270a0df30b592
+SHA512: f31466b197bddd88abbd93860376c38f2b0f7add999eadfd52fe99bd3bc1ff6c117c0b0b561a576443c456f8ce81036a402d84a719de9e1fa844df1ad19ba470
+Section: Tweaks
+Description: Bring iOS 26 Liquid Glass styling and quality-of-life tweaks to WeChat.
+Name: WCGlass
+Author: Ashram
+
 Package: zp.aemuloqs.rootless
 Architecture: iphoneos-arm64e
 Version: 1.0.0-3
