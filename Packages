@@ -1394,7 +1394,7 @@ Maintainer: Brend0n <brendonjkding@126.com>
 Installed-Size: 1016
 Pre-Depends: rootless-compat (>= 0.9)
 Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
-Filename: debs/VolumeMixer_0.0.7~beta3_iphoneos-arm64e.deb
+Filename: debs/VolumeMixer_0.0.7_beta3_iphoneos-arm64e.deb
 Size: 178156
 MD5sum: cc586fe096050b5cd90974f1d4e0710f
 SHA1: 4c22b9eaaaed8594bf3b01191e60d0eb2c7047c8
@@ -2448,6 +2448,29 @@ Description: 别在后台热加载app咯!
 Author: zqbb
 Name: Hello 3Q
 SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.stopautolaunchapps
+
+Package: cn.zqbb.fix120hz
+Architecture: iphoneos-arm64e
+Version: 3.3.3-6
+Maintainer: zqbb
+Installed-Size: 6284
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), preferenceloader, com.opa334.altlist
+Conflicts: cn.zqbb.fix120hz15, com.zqbb.fix120hz, com.zqbb.dynamic120hz
+Filename: debs/Hello_120Hz_3.3.3-6_iphoneos-arm64e.deb
+Size: 1827932
+MD5sum: 41c6605ce238c14cfa6dea31c30a22be
+SHA1: 46878dfbe97190bdc1a86b7d1bbb2183c886e616
+SHA256: 96d406db06c2a32fe5423b5a67c6429d7501afe2a0699791d66fd8a47e11c42f
+SHA512: 2e6fa5cac6e9ce117f6f6c8ae524330c88167bd15d46f0884dce1b291ff8fe94169426c35c883a52fd9d21e6f84971413bbcb71076b75e6ab22ced8dec515142
+Section: zqbb Tweaks
+Description: 
+ - Unlock dynamic refresh rate from 80hz to 120hz
+ - .
+ - 解锁动态刷新率80hz到120hz.
+Name: Hello 120Hz
+Author: zqbb
+Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.fix120hz
+SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.fix120hz
 
 Package: cn.zqbb.hello.bundleid
 Architecture: iphoneos-arm64e
