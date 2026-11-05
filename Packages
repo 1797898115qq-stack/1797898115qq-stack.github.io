@@ -950,6 +950,24 @@ Author: zqbb
 Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.fix120hz
 SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.fix120hz
 
+Package: cn.zqbb.hellospeed
+Architecture: iphoneos-arm64e
+Version: 1.2.2
+Maintainer: zqbb
+Installed-Size: 424
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/Hello_Speed_1.2.2_iphoneos-arm64e_1.deb
+Size: 76816
+MD5sum: df7dd976042eee5f7cfa0b27db85c138
+SHA1: 83155621dd1632bac98936e6578a4e1463b4e574
+SHA256: 21bf5ee18451ab5e0305f7680fa87df63702383b943a74223f5c5e6610812f58
+SHA512: eab0d2647c019d130438354acf0cbd99d7d1e8935d4141a4e7fd2da1f8103a28d23cdea0eeab491892352ef5756fbc2287553eb56e240a86f83e6086322be60c
+Section: Tweaks
+Description: SpringBoard动画加速!
+Name: Hello Speed
+Author: zqbb
+Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.hellospeed
+
 Package: com.tsangbaby.kayoko
 Architecture: iphoneos-arm64e
 Version: 5.0
@@ -1536,24 +1554,6 @@ Description: 激活码用户或需要激活码的用户安装这个，非激活�
 Name: CopyVault(激活码版)
 Author: SquidForce, Backup
 SileoDepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.copyvault/depiction.json
-
-Package: cn.zqbb.hellospeed
-Architecture: iphoneos-arm64e
-Version: 1.2.2
-Maintainer: zqbb
-Installed-Size: 424
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/cn.zqbb.hellospeed_1.2.2_iphoneos-arm64e.deb
-Size: 76816
-MD5sum: df7dd976042eee5f7cfa0b27db85c138
-SHA1: 83155621dd1632bac98936e6578a4e1463b4e574
-SHA256: 21bf5ee18451ab5e0305f7680fa87df63702383b943a74223f5c5e6610812f58
-SHA512: eab0d2647c019d130438354acf0cbd99d7d1e8935d4141a4e7fd2da1f8103a28d23cdea0eeab491892352ef5756fbc2287553eb56e240a86f83e6086322be60c
-Section: Tweaks
-Description: SpringBoard动画加速!
-Name: Hello Speed
-Author: zqbb
-Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.hellospeed
 
 Package: com.hbkit.wechat
 Architecture: iphoneos-arm64
